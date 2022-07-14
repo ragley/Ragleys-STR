@@ -1,0 +1,40 @@
+[
+  {
+    "$type": "ModListMetadata, Wabbajack.Lib",
+    "title": "Ragley's Skyrim Together Reborn",
+    "description": "Modpack for Skyrim Together Reborn",
+    "author": "Ragley",
+    "maintainers": [
+      "github/ragley"
+    ],
+    "game": "skyrimspecialedition",
+    "tags": [
+      "testing",
+      "SkyrimTogetherReborn",
+      "Immersion",
+      "Multiplayer",
+      "Roleplay"
+    ],
+    "nsfw": false,
+    "image_contains_title": false,
+    "force_down": false,
+    "links": {
+      "$type": "Links, Wabbajack.Lib",
+      "image": "<link to an image to show in the UI>",
+      "readme": "https://github.com/ragley/Ragleys-STR/blob/main/README.md",
+      "download": "https://github.com/ragley/Ragleys-STR/raw/main/Ragley's%20Skyrim%20Together%20Reborn.wabbajack",
+      "machineURL": "machineURL",
+      "discordURL": "<your discord link here>"
+    },
+    "download_metadata": {
+	"$type": "DownloadMetadata, Wabbajack.Lib",
+  	"Hash": "3mai4oGDfRg=",
+  	"Size": 21368629,
+  	"NumberOfArchives": 142,
+  	"SizeOfArchives": 25284878950,
+  	"NumberOfInstalledFiles": 24671,
+  	"SizeOfInstalledFiles": 42893203712
+     },
+    "version": "0.2"
+  }
+]
