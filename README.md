@@ -76,6 +76,20 @@ Good news is they will persist between installs and you likely wont have to do i
     - If you go this route take extra care to remember exactly what files you moved in case you have to remove them later
     - I won't cover this as I've not tried it, you should know what you're doing before trying this.
     - Alternatively, just disable Smoothcam in MO2
+
+## Racemenu Edits
+To attempt to ensure racemenu changes are synced in game, follow these steps.
+1. Launch STR from MO2
+2. Start a New Game
+3. Skip initial character creation by just pressing accept.
+4. Chose your start and sleep in the bed
+5. Once you have loaded in, open console (~) then enter "showracemenu"
+6. Make the desired changes to your character
+   - Some things will not sync like custom hair color (i think), and body morphs (both racemenu and cbbe)
+7. Accept and name your character
+8. Save the game in a new save (__MANUAL__)
+9. Only now should you connect to a server. Your characters appearance should be synced with the other players.
+10. If you want to make changes, disconnect from the server and repeat steps 6-9, or else other people will not see them.
     
 ## Tips When Playing (WIP)
 1. Use normal saves instead of Quicksaves, and turn off autosave functionality.
