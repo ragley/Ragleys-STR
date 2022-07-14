@@ -1,4 +1,7 @@
 # Ragley's Skyrim Together Reborn Testing Repo
+
+I am fairly new to wabbajack so bear with me, and let me know if theres improvements to make
+
 ## Install Wabbajack
 1. Install Wabbajack according to the instructions at: https://github.com/wabbajack-tools/wabbajack (NOT IN ROOT OF DRIVE, PROGRAM FILES, or DOWNLOADS. It needs to be in a new folder)
 2. Download the Wabbajack files from this repo.
