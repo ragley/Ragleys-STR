@@ -94,3 +94,9 @@ To attempt to ensure racemenu changes are synced in game, follow these steps.
 ## Tips When Playing (WIP)
 1. Use normal saves instead of Quicksaves, and turn off autosave functionality.
    - These have been known to start causing issues for extended play in Skyrim so I recommend against relying on them.
+2. If you experience bugs and aren't sure whats causing them first refer to: https://github.com/tiltedphoques/Mod-Compatibility for information on mods used with STR.
+   - I will do my best to avoid these in the installation process but its not yet very solid at what works properly with STR.
+   - If you check that mod compatability page and also check the modpages of the installed mods and still can't figure it out, post an issue and I will try to help as best I can.
+
+### Thanks for playing!
+- Ragley
