@@ -2,6 +2,43 @@
 
 I am fairly new to wabbajack and also github so bear with me, and let me know if theres improvements to make. I will be updating this when I make changes, and/or find more mods. Likely I'll be adding more soon.
 
+Some Mods included are:
+- Skyrim Together Reborn
+- Smoothcam
+- USSEP (Both Creation Club Dependent and not)
+- SKyUI
+- Nordic UI
+- True Directional Movement
+- The Elder Scrolls Legends Loading Screens
+- SMIM
+- High Poly Project
+- Skyrim 2018/2020
+- Racemenu
+- CBBE
+- Tempered Skins (male/female)
+- KS Hairdos
+- Alternate Start
+- Better Jumping
+- Smilodon
+- Rustic Clothing
+- Immersive Weapons and Armors
+- Bandolier
+- Cloaks of Skyrim
+- Cathedral Armory
+- Wearable Lanterns
+- NPCs Walk and Run at Your Own Pace
+- A Quality World Map
+- Carriage Stops of Skyrim
+- Point the Way
+- Lux, Lux Via, Lux Orbis
+- Embers XD
+- Ordinator
+- JKs Skyrim
+- All JKs Interiors
+- The Notice Board SE
+- Sidequests of Skyrim
+- Vanguard and Leviathan Animations
+
 ## References
 Throughout this guide I will make references to specific folders, they are:
 - Skyrim Game Folder
