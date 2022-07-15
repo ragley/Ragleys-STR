@@ -19,7 +19,7 @@ Throughout this guide I will make references to specific folders, they are:
 2. Download the Wabbajack files from this repo.
 3. Open Wabbajack and select install from disk.
 4. Sign in to nexus when prompted (premium HIGHLY recommended)
-5. Install the instance to a separate folder. (e.g. X:/Games/SkyrimTogether
+5. Install the instance to a separate folder. (e.g. X:/Games/RSTR)
 6. When it says "Installation Complete," Select open instance, open Mod Organizer, and proceed with the rest of this guide.
 
 ## Set your Skyrim.ini and SkyrimPrefs.ini settings
