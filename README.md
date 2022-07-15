@@ -67,7 +67,8 @@ Skyrim comes with AE Creation Club Content by default, and the creators of STR r
 4. Open MO2, and select "Install new mod from an archive"
 5. Navigate to your skyrim Data folder and select the CCContent.zip you just created.
 6. In MO2, move the mod up to just below the Skyrim master files (DLC's), above any other mods.
-7. If you would like to play with the creation club content:
+7. _**CAUTION:**_ My installation assumes you completed these steps with what is enabled by default, i.e. it is set up to run without the creation club content if you complete the steps up to this point.
+8. If you would like to play with the creation club content:
    - __Check__ the box beside this mod to enable it.
    - __UNCHECK__ the box beside the USSEP - Non CC Mod
    - __Check__ the box beside the USSEP Mod
@@ -76,7 +77,7 @@ Skyrim comes with AE Creation Club Content by default, and the creators of STR r
      - Lux - Saints and Seducers Patch.esp
      - JKs Winking Skeever - Fishing Patch.esp
      - JKs Sinderion's Field Laboratory - CC - Fishing Patch.esp
-8. If you would like to go back to playing without CC content after enabling it, repeat step 7 but do the opposite of what it says (e.g. enable > disable)
+9. If you would like to go back to playing without CC content after enabling it, repeat step 7 but do the opposite of what it says (e.g. enable > disable)
 
 
 ## Smoothcam Functionality
