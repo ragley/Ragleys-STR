@@ -72,10 +72,10 @@ Skyrim comes with AE Creation Club Content by default, and the creators of STR r
    - __UNCHECK__ the box beside the USSEP - Non CC Mod
    - __Check__ the box beside the USSEP Mod
    - In the __Plugins__ Pane, Enable:
-     - Lux Orbis - Saints and Seducers Patch
-     - Lux - Saints and Seducers Patch
-     - JKs Winking Skeever - Fishing Patch
-     - JKs Sinderion's Field Laboratory - CC - Fishing Patch
+     - Lux Orbis - Saints and Seducers Patch.esp
+     - Lux - Saints and Seducers Patch.esp
+     - JKs Winking Skeever - Fishing Patch.esp
+     - JKs Sinderion's Field Laboratory - CC - Fishing Patch.esp
 8. If you would like to go back to playing without CC content after enabling it, repeat step 7 but do the opposite of what it says (e.g. enable > disable)
 
 
