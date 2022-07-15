@@ -16,7 +16,7 @@ Throughout this guide I will make references to specific folders, they are:
 
 ## Install Wabbajack
 1. Install Wabbajack according to the instructions at: https://github.com/wabbajack-tools/wabbajack (__NOT IN ROOT OF DRIVE, PROGRAM FILES, or DOWNLOADS. It needs to be in a new folder__)
-2. Download the Wabbajack files from this repo.
+2. Download the latest release .zip from this repo and extract it to a folder anywhere.
 3. Open Wabbajack and select install from disk.
 4. Sign in to nexus when prompted (premium HIGHLY recommended)
 5. Install the instance to a separate folder. (e.g. X:/Games/RSTR)
