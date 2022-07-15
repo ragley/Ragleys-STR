@@ -57,6 +57,27 @@ Good news is they will persist between installs and you likely wont have to do i
 12. That should install SKSE and an ENB, unless you have another game modifying your skyrim game with an ENB you wont have to repeat these steps. (But you shouldn't since you should be starting with a clean install.
 13. (Optional Step): For a warmer ENB, in your (Base Game)/enbseries/ replace the enbeffect.fx.ini with my custom one from the files downloaded here.
 
+## Management of Creation Club Content
+Skyrim comes with AE Creation Club Content by default, and the creators of STR recommend deleting this content. However a number of mods require Unofficial Skyrim Special Edition Patch. to function, but this also relies on CC content. The USSEP author has hidden downloads of past versions of the mod, but they are still availible to download through Nexus directly. If it is not included in the Wabbajack Install you can get the last AE, non CC dependent USSEP mod here: https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files&file_id=241103
+
+1. Go to your skyrim data folder and select all creation club content. (Files like ccXXXXXXXXX.esm/.esp/.bsa)
+2. Add these files to an archive and name it CCContent.zip or something like that.
+3. Delete the Creation Club content from the Data folder, leaving the archive.
+4. Open MO2, and select "Install new mod from an archive"
+5. Navigate to your skyrim Data folder and select the CCContent.zip you just created.
+6. In MO2, move the mod up to just below the Skyrim master files (DLC's), above any other mods.
+7. If you would like to play with the creation club content:
+   - __Check__ the box beside this mod to enable it.
+   - __UNCHECK__ the box beside the USSEP - Non CC Mod
+   - __Check__ the box beside the USSEP Mod
+   - In the __Plugins__ Pane, Enable:
+     - Lux Orbis - Saints and Seducers Patch
+     - Lux - Saints and Seducers Patch
+     - JKs Winking Skeever - Fishing Patch
+     - JKs Sinderion's Field Laboratory - CC - Fishing Patch
+8. If you would like to go back to playing without CC content after enabling it, repeat step 7 but do the opposite of what it says (e.g. enable > disable)
+
+
 ## Smoothcam Functionality
 1. in MO2 Right-Click the STR Mod, and press remove.  
 2. Run the game through the SKSE Launcher by selecting it from the executable dropdown menu in the upper right.
