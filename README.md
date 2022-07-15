@@ -60,6 +60,7 @@ Good news is they will persist between installs and you likely wont have to do i
 ## Management of Creation Club Content
 Skyrim comes with AE Creation Club Content by default, and the creators of STR recommend deleting this content. However a number of mods require Unofficial Skyrim Special Edition Patch. to function, but this also relies on CC content. The USSEP author has hidden downloads of past versions of the mod, but they are still availible to download through Nexus directly. If it is not included in the Wabbajack Install you can get the last AE, non CC dependent USSEP mod here: https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files&file_id=241103
 
+0. Close M02 if it is open.
 1. Go to your skyrim data folder and select all creation club content. (Files like ccXXXXXXXXX.esm/.esp/.bsa)
 2. Add these files to an archive and name it CCContent.zip or something like that.
 3. Delete the Creation Club content from the Data folder, leaving the archive.
