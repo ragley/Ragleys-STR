@@ -97,28 +97,46 @@ Throughout this guide I will make references to specific folders, they are:
 
 ## ENBSeries and Game Folder Files
 Due to how Wabbajack works and me being too retarded to figure out how to do it, these need to be installed manually.
-Good news is they will persist between installs and you likely wont have to do it again.
+Good news is they will persist between installs and you likely wont have to do it again. If you are coming from a previous install of this modpack you first need to delete a few files, as I've switched the ENB.
 
-1. Go to http://enbdev.com/mod_tesskyrimse_v0475.htm and download the enbseries .zip file
-2. Open the archive and go to the Wrapper folder
-3. Extract ONLY the d3d11.dll and d3dcompiler_46e.dll to the base skyrim install folder, where skyrimSE.exe is located
-4. Go to the "Game Folder Files" folder in your STR Installation folder.
-5. Extract the SKSE archive.
-6. Open the SKSE folder you just made and select:
+### Removing a Previously Installed ENB
+This step is semi optional if you like the current ENB setup and it perfoms well. Personally, my friends and I have experienced MUCH better performance on this new one but the old one still works. If you want to keep the old ENB (or another preset of your choice), skip this subsection complete steps 4, 5, and 6 of "The Truth - ENB Preset" subsection.
+1. Go to your base Skyrim Install Folder, where SkyrimSE.exe is located
+2. Select the files and folders:
+   - enbseries (folder)
+   - enbcache (folder)
+   - enbseries.ini
+   - enblocal.ini
+3. Delete these files.
+
+### __Installing the ENB and SKSE__
+#### __SKSE__
+If you havent installed SKSE you can do it like this:
+1. Go to the "Game Folder Files" folder in your STR Installation folder.
+2. Extract the SKSE archive.
+3. Open the SKSE folder you just made and select:
 	- DATA folder
 	- skse64_loader
 	- skse64_1_6_353.dll
 	- skse64_steam_loader.dll
-7. Copy these to your base skyrim game folder where SkyrimSE.exe is located
-8. Navigate to the Game Folder Files folder within your STR installation
-9. Go to https://www.afkmods.com/ and create an account.
-10. Once you have an account go to https://www.afkmods.com/index.php?/files/file/2241-the-truth-enb/ and download the full version of The Truth ENB.
-11. Open the archive and copy the contents to your base skyrim folder. (enbseries folder, enbseries.ini, and enblocal.ini)
-12. Extract the "Rresets for grass collisons" archive in your Game Files Folder where MO2 is located.
-18. Enter the folder and select a preset. I believe 5 is the most movement and 1 is the least, but I am unsure. I just use 5.
-19. Copy the enbgrasscollisions.ini file to your game directory, where the SkyrimSE.exe is located.
-15. That should install SKSE and The Truth ENB, and grass collisions. Unless you have another installation game modifying your skyrim base game with an ENB etc. you wont have to repeat these steps. (But you shouldn't since you should be starting with a clean install.
-16. (Optional Step): For a warmer ENB, in your (Base Game)/enbseries/ replace the enbeffect.fx.ini with my custom one from the files downloaded here.
+4. Copy these to your base skyrim game folder where SkyrimSE.exe is located.
+
+#### __ENBSeries__
+If you havent installed an ENB ever you can do it like this:
+1. Go to http://enbdev.com/mod_tesskyrimse_v0475.htm and download the enbseries .zip file
+2. Open the archive and go to the Wrapper folder
+3. Extract ONLY the d3d11.dll and d3dcompiler_46e.dll to the base skyrim install folder, where skyrimSE.exe is located
+
+#### __The Truth - ENB Preset__
+If you removed a previous ENB Preset or are continuing to install a new one follow these steps:
+1. Go to https://www.afkmods.com/ and create an account.
+2. Once you have an account go to https://www.afkmods.com/index.php?/files/file/2241-the-truth-enb/ and download the full version of The Truth ENB.
+3. Open the archive and copy the contents to your base skyrim folder. (enbseries folder, enbseries.ini, and enblocal.ini)
+4. Extract the "Presets for grass collisons" archive in your Game Files Folder where MO2 is located.
+5. Enter the folder and select a preset. I believe 5 is the most movement and 1 is the least, but I am unsure. I just use 5.
+6. Copy the enbgrasscollisions.ini file to your game directory, where the SkyrimSE.exe is located.
+7. That should install The Truth ENB, and grass collisions. Unless you have another installation game modifying your skyrim base game with an ENB etc. or you want to change ENB Presets, you wont have to repeat these steps.
+8. (Optional Step): For a warmer ENB, in your (Base Game)/enbseries/ replace the enbeffect.fx.ini with my custom one from the files downloaded here.
 
 ## Management of Creation Club Content
 Skyrim comes with AE Creation Club Content by default, and the creators of STR recommend deleting this content. However a number of mods require Unofficial Skyrim Special Edition Patch. to function, but this also relies on CC content. The USSEP author has hidden downloads of past versions of the mod, but they are still availible to download through Nexus directly. If it is not included in the Wabbajack Install you can get the last AE, non CC dependent USSEP mod here: https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files&file_id=241103
