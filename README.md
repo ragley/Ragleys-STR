@@ -88,17 +88,14 @@ Good news is they will persist between installs and you likely wont have to do i
 	- skse64_steam_loader.dll
 7. Copy these to your base skyrim game folder where SkyrimSE.exe is located
 8. Navigate to the Game Folder Files folder within your STR installation
-9. Extract the H. Natural View Tamriel archive.
-10. Go to the NVT folder you just made within the Game Files Folder
-11. Go to "1. Main File" folder and pick a preset. I recommend 2.
-12. Enter the chosen preset folder and copy the contents to your __BASE GAME FOLDER__ (SkyrimSE.exe folder)
-13. Go back to the NVT folder and into "2. Optional DOF Strengths"
-14. Repeat Step 9 with your chosen DOF preset. I highly recommend 6.
-15. That should install SKSE and an ENB, unless you have another game modifying your skyrim game with an ENB you wont have to repeat these steps. (But you shouldn't since you should be starting with a clean install.
-16. (Optional Step): For a warmer ENB, in your (Base Game)/enbseries/ replace the enbeffect.fx.ini with my custom one from the files downloaded here.
-17. Extract the "Rresets for grass collisons" archive in your Game Files Folder where MO2 is located.
-18. Enter the folder and select a preset. I believe 5 is the most movement and 1 is the least, but I am unsure.
+9. Go to https://www.afkmods.com/ and create an account.
+10. Once you have an account go to https://www.afkmods.com/index.php?/files/file/2241-the-truth-enb/ and download the full version of The Truth ENB.
+11. Open the archive and copy the contents to your base skyrim folder. (enbseries folder, enbseries.ini, and enblocal.ini)
+12. Extract the "Rresets for grass collisons" archive in your Game Files Folder where MO2 is located.
+18. Enter the folder and select a preset. I believe 5 is the most movement and 1 is the least, but I am unsure. I just use 5.
 19. Copy the enbgrasscollisions.ini file to your game directory, where the SkyrimSE.exe is located.
+15. That should install SKSE and The Truth ENB, and grass collisions. Unless you have another installation game modifying your skyrim base game with an ENB etc. you wont have to repeat these steps. (But you shouldn't since you should be starting with a clean install.
+16. (Optional Step): For a warmer ENB, in your (Base Game)/enbseries/ replace the enbeffect.fx.ini with my custom one from the files downloaded here.
 
 ## Management of Creation Club Content
 Skyrim comes with AE Creation Club Content by default, and the creators of STR recommend deleting this content. However a number of mods require Unofficial Skyrim Special Edition Patch. to function, but this also relies on CC content. The USSEP author has hidden downloads of past versions of the mod, but they are still availible to download through Nexus directly. If it is not included in the Wabbajack Install you can get the last AE, non CC dependent USSEP mod here: https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files&file_id=241103
