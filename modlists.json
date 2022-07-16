@@ -27,14 +27,14 @@
       "discordURL": "https://discord.gg/6gDcTXPA"
     },
     "download_metadata": {
-	"$type": "DownloadMetadata, Wabbajack.Lib",
-	"Hash": "L6D8d3/gsMY=",
- 	"Size": 25083154,
- 	"NumberOfArchives": 143,
- 	"SizeOfArchives": 25287140269,
-	"NumberOfInstalledFiles": 23937,
-  	"SizeOfInstalledFiles": 42844786924
-	},
-    "version": "0.3"
+  	"$type": "DownloadMetadata, Wabbajack.Lib",
+ 	"Hash": "1ujolxh93ew=",
+  	"Size": 25449085,
+  	"NumberOfArchives": 205,
+  	"SizeOfArchives": 32873027969,
+  	"NumberOfInstalledFiles": 30747,
+  	"SizeOfInstalledFiles": 54827270794
+    },
+    "version": "0.5"
   }
 ]
