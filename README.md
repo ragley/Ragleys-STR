@@ -12,7 +12,8 @@ Some Mods included are:
 - The Elder Scrolls Legends Loading Screens
 - SMIM
 - High Poly Project
-- Skyrim 2018/2020
+- Skyrim 2018/2020/Terrain Parallax
+- Blended Roads
 - Racemenu
 - CBBE
 - Tempered Skins (male/female)
@@ -32,12 +33,34 @@ Some Mods included are:
 - Point the Way
 - Lux, Lux Via, Lux Orbis
 - Embers XD
+- Inferno
+- KD -  Realistic Fireplaces
+- Many ENB Particle Lights
+- The Truth - ENB Preset
+- Deadly Spell Impacts
+- Dwemer Pipework Reworked - With ENB Lights
+- Dwemer Automatons Glowmapped
+- Dwemer Weapons Glowmapped
+- Folkvangr
+- The Grass Must Grow
+- Landscape Fixes for Grass Mods
+- Grass Collisions
+- Immersive Sounds Compendium
+- Security Overhaul
+- Realistic Melee Range
+- The Notice Board (pending testing and also potentially missives later)
+- Strange Runes
 - Ordinator
 - JKs Skyrim
 - All JKs Interiors
 - The Notice Board SE
 - Sidequests of Skyrim
 - Vanguard and Leviathan Animations
+- EVG Animation Variance
+- Spell Perk Item Distributor
+- First Person Combat Animations Overhaul
+- Gesture Animations Remix
+
 
 ## References
 Throughout this guide I will make references to specific folders, they are:
