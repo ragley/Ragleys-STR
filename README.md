@@ -51,7 +51,7 @@ Throughout this guide I will make references to specific folders, they are:
 ## Clean Install Skyrim
 1. Follow the guide here: https://wiki.tiltedphoques.com/tilted-online/guides/client-setup up until the Mod Organizer 2 section. Past this will be covered by this guide.
 
-## Install Wabbajack
+## Wabbajack
 1. Install Wabbajack according to the instructions at: https://github.com/wabbajack-tools/wabbajack (__NOT IN ROOT OF DRIVE, PROGRAM FILES, or DOWNLOADS. It needs to be in a new folder__)
 2. Download the latest release .zip from this repo and extract it to a folder anywhere.
 3. Open Wabbajack and select install from disk.
