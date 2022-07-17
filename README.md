@@ -5,7 +5,7 @@ I am fairly new to wabbajack and also github so bear with me, and let me know if
 Some Mods included are:
 - Skyrim Together Reborn
 - Smoothcam
-- USSEP (Both Creation Club Dependent and not)
+- USSEP (Non CC dependent version)
 - SKyUI
 - Nordic UI
 - True Directional Movement
