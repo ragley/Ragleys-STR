@@ -61,6 +61,13 @@ Some Mods included are:
 - First Person Combat Animations Overhaul
 - Gesture Animations Remix
 
+## Requirements
+This seems pretty performance friendly overall, mostly due to the ENB preset I think. These are specs that will likely result in good performance in 1080p60fps at most times.
+- 2080 Super
+- 32G RAM
+- Ryzen 7 3700x
+- At least 100 Gb storage space on an SSD
+  - HDD will work but expect slower loads and possibly pop in, I havent tested anything on a HDD in a long time
 
 ## References
 Throughout this guide I will make references to specific folders, they are:
