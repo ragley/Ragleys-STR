@@ -157,24 +157,12 @@ Skyrim comes with AE Creation Club Content by default, and the creators of STR r
 4. If you ever want to use the free AE content, simply go to MO2 and add the zip you created as a mod, then place it just below the skyrim DLC's.
 
 ## Smoothcam Functionality
-1. in MO2 Right-Click the STR Mod, and press remove.  
-2. Run the game through the SKSE Launcher by selecting it from the executable dropdown menu in the upper right.
-3. Make a new game and new character, press R to accept character creation
-4. Wait for MCM messages to stop.
-5. Go 3rd person and ensure Smoothcam is working. If you've never used smoothcam before you will easily be able to tell.
-6. Save the game (non-quicksave)
-7. open the console (~ key) and enter "qqq" to quit the game
-8. Reinstall the STR mod (should be in downloads tab) and place it directly below smoothcam, above USSEP, where it was before.
-9. Run the game through SkyrimTogether executable from MO2.
-10. __LOAD__ your save you just created. Do not use "Continue"
-11. Ensure Smoothcam is working.
-12. Open the console > qqq
-13. Relaunch Skyrim Together. 
-14. Smoothcam should work on new games you make now.
-15. If issues still persist, such as the fatal camera offset error, you can try manually installing smoothcam
-    - If you go this route take extra care to remember exactly what files you moved in case you have to remove them later
-    - I won't cover this as I've not tried it, you should know what you're doing before trying this.
-    - Alternatively, just disable Smoothcam in MO2
+1. In MO2, uncheck the SmoothCam Mod
+2. Run STR then start a new game and skip through character creation
+3. Save the game then quit to desktop (or console > qqq)
+4. Enable SmoothCam in MO2.
+5. Launch STR and load that save. (Not Continue)
+6. SmoothCam should be working and will stay working when starting a new game.
 
 ## Immersive Equipment Display Presets
 I've included Mura's presets for Immersive Equipment Displays and this is how to enable them. Likely you'll have to do this every new game you start as it doesn't seem to stay.
@@ -209,6 +197,6 @@ To attempt to ensure racemenu changes are synced in game, follow these steps.
 3. If you experience bugs and aren't sure whats causing them first refer to: https://github.com/tiltedphoques/Mod-Compatibility for information on mods used with STR.
    - I will do my best to avoid these in the installation process but its not yet very solid at what works properly with STR.
    - If you check that mod compatability page and also check the modpages of the installed mods and still can't figure it out, post an issue and I will try to help as best I can.
-
+   - 
 ### Thanks for playing!
 - Ragley
