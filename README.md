@@ -156,7 +156,6 @@ Skyrim comes with AE Creation Club Content by default, and the creators of STR r
 3. Delete the Creation Club content from the Data folder, leaving the archive.
 4. If you ever want to use the free AE content, simply go to MO2 and add the zip you created as a mod, then place it just below the skyrim DLC's.
 
-
 ## Smoothcam Functionality
 1. in MO2 Right-Click the STR Mod, and press remove.  
 2. Run the game through the SKSE Launcher by selecting it from the executable dropdown menu in the upper right.
@@ -176,6 +175,18 @@ Skyrim comes with AE Creation Club Content by default, and the creators of STR r
     - If you go this route take extra care to remember exactly what files you moved in case you have to remove them later
     - I won't cover this as I've not tried it, you should know what you're doing before trying this.
     - Alternatively, just disable Smoothcam in MO2
+
+## Immersive Equipment Display Presets
+I've included Mura's presets for Immersive Equipment Displays and this is how to enable them. Likely you'll have to do this every new game you start as it doesn't seem to stay.
+1. Press the DELETE (DEL) key to open the UI for IED
+2. Click VIEW on the menubar and select custom.
+3. Select the checkbox for either gender, and also slect sync.
+4. From the dropdown menu under "Preset" select "Coin Pouch for JS by Mura"
+5. Click "Merge" then OK
+6. Repeat step 4 and 5 for:
+   - Headhunter Bounty by Mura
+   - Potions for APS by Mura
+7. Press the x at the top or ESC to close the UI
 
 ## Racemenu Edits
 To attempt to ensure racemenu changes are synced in game, follow these steps.
