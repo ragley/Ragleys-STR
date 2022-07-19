@@ -106,7 +106,7 @@ Throughout this guide I will make references to specific folders, they are:
 Due to how Wabbajack works and me being too retarded to figure out how to do it, these need to be installed manually.
 Good news is they will persist between installs and you likely wont have to do it again. If you are coming from a previous install of this modpack you first need to delete a few files, as I've switched the ENB.
 
-### Removing a Previously Installed ENB
+### Removing a Previously Installed ENB Preset
 This step is semi optional if you like the current ENB setup and it perfoms well. Personally, my friends and I have experienced MUCH better performance on this new one but the old one still works. If you want to keep the old ENB (or another preset of your choice), skip this subsection and complete steps 4, 5, and 6 of "The Truth - ENB Preset" subsection.
 1. Go to your base Skyrim Install Folder, where SkyrimSE.exe is located
 2. Select the files and folders:
