@@ -136,7 +136,9 @@ If you removed a previous ENB Preset or are continuing to install a new one foll
 5. Enter the folder and select a preset. I believe 5 is the most movement and 1 is the least, but I am unsure. I just use 5.
 6. Copy the enbgrasscollisions.ini file to your game directory, where the SkyrimSE.exe is located.
 7. That should install The Truth ENB, and grass collisions. Unless you have another installation game modifying your skyrim base game with an ENB etc. or you want to change ENB Presets, you wont have to repeat these steps.
-8. (Optional Step): For a warmer ENB, in your (Base Game)/enbseries/ replace the enbeffect.fx.ini with my custom one from the files downloaded here.
+8. For a warmer ENB, you can use SHIFT+ENTER to open the ENB menu and edit the enbbloom.fx and enbeffect.fx sections to match these respectively:
+   - [enbbloom.fx](https://github.com/ragley/Ragleys-STR/raw/dev/bloomfx.jpg)
+   - [enbeffect.fx](https://github.com/ragley/Ragleys-STR/raw/dev/effectfx.jpg)
 
 ## Management of Creation Club Content
 Skyrim comes with AE Creation Club Content by default, and the creators of STR recommend deleting this content. However a number of mods require Unofficial Skyrim Special Edition Patch. to function, but this also relies on CC content. The USSEP author has hidden downloads of past versions of the mod, but they are still availible to download through Nexus directly. If it is not included in the Wabbajack Install you can get the last AE, non CC dependent USSEP mod here: https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files&file_id=241103
