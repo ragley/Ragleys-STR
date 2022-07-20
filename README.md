@@ -197,6 +197,13 @@ To attempt to ensure racemenu changes are synced in game, follow these steps.
 3. If you experience bugs and aren't sure whats causing them first refer to: https://github.com/tiltedphoques/Mod-Compatibility for information on mods used with STR.
    - I will do my best to avoid these in the installation process but its not yet very solid at what works properly with STR.
    - If you check that mod compatability page and also check the modpages of the installed mods and still can't figure it out, post an issue and I will try to help as best I can.
-   - 
+4. Always have the party leader join the server first and create the party.
+   - The party leader should be physically in front of the party when travelling to ensure they are the first to enter a new cell
+   - The party leader should be the only person progressing quests to help keep everything synced.
+     - If someone other than the party leader progresses a quest, have the party leader repeat the same steps to catch up.
+
+
+
+
 ### Thanks for playing!
 - Ragley
