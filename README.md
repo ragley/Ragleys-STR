@@ -48,19 +48,57 @@ Some Mods included are:
 - Immersive Sounds Compendium
 - Security Overhaul
 - Realistic Melee Range
-- The Notice Board (pending testing and also potentially missives later)
 - Strange Runes
 - Ordinator
 - JKs Skyrim
 - All JKs Interiors
-- The Notice Board SE
 - Sidequests of Skyrim
 - Vanguard and Leviathan Animations
 - EVG Animation Variance
 - Spell Perk Item Distributor
 - First Person Combat Animations Overhaul
 - Gesture Animations Remix
+- Fixed Face Discoloration
+- Bunch of JS models
+- Immersive Equipment Displays
+- Mura Presets for IED
+- Tweaked Animation Priority
+- Staff Animations
+- More Plant Retextures
+- Majestic Mountains
+- Volumetric Mists
+- Skyrim Immersive Creatures
+- Fluffworks
+- FISSES
+- Improved weapon Impact Effects
+- Smoother Skies
+- Ethereal Clouds
+- Water for ENB
+- Bandit Lines Expansion
+- Underdog Animations
+- College of Winterhold - Quest Expansion
+- Eyes of Beauty - Ai Remastered
+- Improved Closedfaced Helmets
+- VIGILANT
+  - Seems to work, but if multiple people enter Windspeak Inn in Dawnstar when first starting the quest it can cause a crash
+  - When traveling for quests and meeting an npc that's walking there, follow with them because fast traveling/coc does not pass time that I can tell so they will still be walking for a long time.
+- Wet and Cold
+- Rain, Ash, and Snow Shaders (RASS)
+- Vanguard Crossbow Animations
+- MCM Recorder to auto-configure MCMs at start of new game
+- Weather Control
+- Realistic Regeneration
+- Mysticism
+- Apocalypse
+- Basic Camp Gear
 
+## Requirements
+This seems pretty performance friendly overall, mostly due to the ENB preset I think. These are specs that will likely result in good performance in 1080p60fps at most times.
+- 2080 Super
+- 32G RAM
+- Ryzen 7 3700x
+- At least 110 Gb storage space on an SSD
+  - HDD will work but expect slower loads and possibly pop in, I havent tested anything on a HDD in a long time
 
 ## References
 Throughout this guide I will make references to specific folders, they are:
@@ -99,7 +137,7 @@ Throughout this guide I will make references to specific folders, they are:
 Due to how Wabbajack works and me being too retarded to figure out how to do it, these need to be installed manually.
 Good news is they will persist between installs and you likely wont have to do it again. If you are coming from a previous install of this modpack you first need to delete a few files, as I've switched the ENB.
 
-### Removing a Previously Installed ENB
+### Removing a Previously Installed ENB Preset
 This step is semi optional if you like the current ENB setup and it perfoms well. Personally, my friends and I have experienced MUCH better performance on this new one but the old one still works. If you want to keep the old ENB (or another preset of your choice), skip this subsection and complete steps 4, 5, and 6 of "The Truth - ENB Preset" subsection.
 1. Go to your base Skyrim Install Folder, where SkyrimSE.exe is located
 2. Select the files and folders:
@@ -136,7 +174,9 @@ If you removed a previous ENB Preset or are continuing to install a new one foll
 5. Enter the folder and select a preset. I believe 5 is the most movement and 1 is the least, but I am unsure. I just use 5.
 6. Copy the enbgrasscollisions.ini file to your game directory, where the SkyrimSE.exe is located.
 7. That should install The Truth ENB, and grass collisions. Unless you have another installation game modifying your skyrim base game with an ENB etc. or you want to change ENB Presets, you wont have to repeat these steps.
-8. (Optional Step): For a warmer ENB, in your (Base Game)/enbseries/ replace the enbeffect.fx.ini with my custom one from the files downloaded here.
+8. For a warmer ENB, you can use SHIFT+ENTER to open the ENB menu and edit the enbbloom.fx and enbeffect.fx sections to match these respectively:
+   - [enbbloom.fx](https://github.com/ragley/Ragleys-STR/raw/dev/bloomfx.jpg)
+   - [enbeffect.fx](https://github.com/ragley/Ragleys-STR/raw/dev/effectfx.jpg)
 
 ## Management of Creation Club Content
 Skyrim comes with AE Creation Club Content by default, and the creators of STR recommend deleting this content. However a number of mods require Unofficial Skyrim Special Edition Patch. to function, but this also relies on CC content. The USSEP author has hidden downloads of past versions of the mod, but they are still availible to download through Nexus directly. If it is not included in the Wabbajack Install you can get the last AE, non CC dependent USSEP mod here: https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files&file_id=241103
@@ -147,26 +187,25 @@ Skyrim comes with AE Creation Club Content by default, and the creators of STR r
 3. Delete the Creation Club content from the Data folder, leaving the archive.
 4. If you ever want to use the free AE content, simply go to MO2 and add the zip you created as a mod, then place it just below the skyrim DLC's.
 
-
 ## Smoothcam Functionality
-1. in MO2 Right-Click the STR Mod, and press remove.  
-2. Run the game through the SKSE Launcher by selecting it from the executable dropdown menu in the upper right.
-3. Make a new game and new character, press R to accept character creation
-4. Wait for MCM messages to stop.
-5. Go 3rd person and ensure Smoothcam is working. If you've never used smoothcam before you will easily be able to tell.
-6. Save the game (non-quicksave)
-7. open the console (~ key) and enter "qqq" to quit the game
-8. Reinstall the STR mod (should be in downloads tab) and place it directly below smoothcam, above USSEP, where it was before.
-9. Run the game through SkyrimTogether executable from MO2.
-10. __LOAD__ your save you just created. Do not use "Continue"
-11. Ensure Smoothcam is working.
-12. Open the console > qqq
-13. Relaunch Skyrim Together. 
-14. Smoothcam should work on new games you make now.
-15. If issues still persist, such as the fatal camera offset error, you can try manually installing smoothcam
-    - If you go this route take extra care to remember exactly what files you moved in case you have to remove them later
-    - I won't cover this as I've not tried it, you should know what you're doing before trying this.
-    - Alternatively, just disable Smoothcam in MO2
+1. In MO2, uncheck the SmoothCam Mod
+2. Run STR then start a new game and skip through character creation
+3. Save the game then quit to desktop (or console > qqq)
+4. Enable SmoothCam in MO2.
+5. Launch STR and load that save. (Not Continue)
+6. SmoothCam should be working and will stay working when starting a new game.
+
+## Immersive Equipment Display Presets
+I've included Mura's presets for Immersive Equipment Displays and this is how to enable them. Likely you'll have to do this every new game you start as it doesn't seem to stay.
+1. Press the DELETE (DEL) key to open the UI for IED
+2. Click VIEW on the menubar and select custom.
+3. Select the checkbox for either gender, and also slect sync.
+4. From the dropdown menu under "Preset" select "Coin Pouch for JS by Mura"
+5. Click "Merge" then OK
+6. Repeat step 4 and 5 for:
+   - Headhunter Bounty by Mura
+   - Potions for APS by Mura
+7. Press the x at the top or ESC to close the UI
 
 ## Racemenu Edits
 To attempt to ensure racemenu changes are synced in game, follow these steps.
@@ -189,6 +228,14 @@ To attempt to ensure racemenu changes are synced in game, follow these steps.
 3. If you experience bugs and aren't sure whats causing them first refer to: https://github.com/tiltedphoques/Mod-Compatibility for information on mods used with STR.
    - I will do my best to avoid these in the installation process but its not yet very solid at what works properly with STR.
    - If you check that mod compatability page and also check the modpages of the installed mods and still can't figure it out, post an issue and I will try to help as best I can.
+4. Always have the party leader join the server first and create the party.
+   - The party leader should be physically in front of the party when travelling to ensure they are the first to enter a new cell
+   - The party leader should be the only person progressing quests to help keep everything synced.
+     - If someone other than the party leader progresses a quest, have the party leader repeat the same steps to catch up.
 
-### Thanks for playing!
+
+# Disclaimer
+## You are free to modify this list how you want, however you do so at your own risk. I am a student who enjoys skyrim modding in his free time and I don't have the time or energy to provide support on a modded setup that I don't know what exactly has been done. Should you decide to make modifications, all responsibility for problems that occur falls on you, and I respectfully as you search elsewhere for the solutions.
+
+# Thanks for playing!
 - Ragley
