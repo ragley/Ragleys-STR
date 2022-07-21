@@ -48,18 +48,49 @@ Some Mods included are:
 - Immersive Sounds Compendium
 - Security Overhaul
 - Realistic Melee Range
-- The Notice Board (pending testing and also potentially missives later)
 - Strange Runes
 - Ordinator
 - JKs Skyrim
 - All JKs Interiors
-- The Notice Board SE
 - Sidequests of Skyrim
 - Vanguard and Leviathan Animations
 - EVG Animation Variance
 - Spell Perk Item Distributor
 - First Person Combat Animations Overhaul
 - Gesture Animations Remix
+- Fixed Face Discoloration
+- Bunch of JS models
+- Immersive Equipment Displays
+- Mura Presets for IED
+- Tweaked Animation Priority
+- Staff Animations
+- More Plant Retextures
+- Majestic Mountains
+- Volumetric Mists
+- Skyrim Immersive Creatures
+- Fluffworks
+- FISSES
+- Improved weapon Impact Effects
+- Smoother Skies
+- Ethereal Clouds
+- Water for ENB
+- Bandit Lines Expansion
+- Underdog Animations
+- College of Winterhold - Quest Expansion
+- Eyes of Beauty - Ai Remastered
+- Improved Closedfaced Helmets
+- VIGILANT
+  - Seems to work, but if multiple people enter Windspeak Inn in Dawnstar when first starting the quest it can cause a crash
+  - When traveling for quests and meeting an npc that's walking there, follow with them because fast traveling/coc does not pass time that I can tell so they will still be walking for a long time.
+- Wet and Cold
+- Rain, Ash, and Snow Shaders (RASS)
+- Vanguard Crossbow Animations
+- MCM Recorder to auto-configure MCMs at start of new game
+- Weather Control
+- Realistic Regeneration
+- Mysticism
+- Apocalypse
+- Basic Camp Gear
 
 ## Requirements
 This seems pretty performance friendly overall, mostly due to the ENB preset I think. These are specs that will likely result in good performance in 1080p60fps at most times.
