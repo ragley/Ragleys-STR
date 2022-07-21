@@ -1,3 +1,4 @@
+# Changelog
 ## v0.6.7
 ### Mod Changes and Fixes
 - Fixed Face Discoloration
