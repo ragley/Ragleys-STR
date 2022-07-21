@@ -97,7 +97,7 @@ This seems pretty performance friendly overall, mostly due to the ENB preset I t
 - 2080 Super
 - 32G RAM
 - Ryzen 7 3700x
-- At least 100 Gb storage space on an SSD
+- At least 110 Gb storage space on an SSD
   - HDD will work but expect slower loads and possibly pop in, I havent tested anything on a HDD in a long time
 
 ## References
@@ -234,7 +234,8 @@ To attempt to ensure racemenu changes are synced in game, follow these steps.
      - If someone other than the party leader progresses a quest, have the party leader repeat the same steps to catch up.
 
 
+# Disclaimer
+## You are free to modify this list how you want, however you do so at your own risk. I am a student who enjoys skyrim modding in his free time and I don't have the time or energy to provide support on a modded setup that I don't know what exactly has been done. Should you decide to make modifications, all responsibility for problems that occur falls on you, and I respectfully as you search elsewhere for the solutions.
 
-
-### Thanks for playing!
+# Thanks for playing!
 - Ragley
