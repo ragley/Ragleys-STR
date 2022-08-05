@@ -67,7 +67,6 @@ Some Mods included are:
 - More Plant Retextures
 - Majestic Mountains
 - Volumetric Mists
-- Skyrim Immersive Creatures
 - Fluffworks
 - FISSES
 - Improved weapon Impact Effects
