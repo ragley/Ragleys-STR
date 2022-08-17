@@ -2,7 +2,10 @@
 
 I am fairly new to wabbajack and also github so bear with me, and let me know if theres improvements to make. I will be updating this when I make changes, and/or find more mods. Likely I'll be adding more soon. Feel free to join the discord: https://discord.gg/xTr26KDndy
 
-Some Mods included are:
+## Included Mod Highlights
+<details>
+  <summary>Click to Expand</summary>
+
 - Skyrim Together Reborn
 - Smoothcam
 - USSEP (Non CC dependent version)
@@ -90,6 +93,7 @@ Some Mods included are:
 - Mysticism
 - Apocalypse
 - Basic Camp Gear
+</details>
 
 ## Requirements
 This seems pretty performance friendly overall, mostly due to the ENB preset I think. These are specs that will likely result in good performance in 1080p60fps at most times.
@@ -105,7 +109,7 @@ Throughout this guide I will make references to specific folders, they are:
   - Where the Skyrim.exe is located
 - Data Folder
   - The Data folder within your skyrim game folder
-- STR Installation folder
+- Installation folder
   - The location where wabbajack installs Mod Organizer 2
 
 ## Clean Install Skyrim
@@ -179,12 +183,21 @@ If you removed a previous ENB Preset or are continuing to install a new one foll
 
 ## Management of Creation Club Content
 Skyrim comes with AE Creation Club Content by default, and the creators of STR recommend deleting this content. However a number of mods require Unofficial Skyrim Special Edition Patch. to function, but this also relies on CC content. The USSEP author has hidden downloads of past versions of the mod, but they are still availible to download through Nexus directly. If it is not included in the Wabbajack Install you can get the last AE, non CC dependent USSEP mod here: https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files&file_id=241103
-
 0. Close M02 if it is open.
 1. Go to your skyrim data folder and select all creation club content. (Files like ccXXXXXXXXX.esm/.esp/.bsa)
 2. Add these files to an archive and name it CCContent.zip or something like that.
 3. Delete the Creation Club content from the Data folder, leaving the archive.
 4. If you ever want to use the free AE content, simply go to MO2 and add the zip you created as a mod, then place it just below the skyrim DLC's.
+
+## Launching STR for the First Time
+When you first run STR you have to select the proper .EXE file. This is __NOT__ SKSE.
+- At the prompt, select "SkyrimSE.exe" from your base Skyrim folder.
+- If you select the wrong one follow these steps:
+  1. Select the executables setting in MO2 (Green Gears)
+  2. Select SkyrimTogetherReborn
+  3. in the arguments field add: ```-r```
+  4. Click "OK" and launch STR again.
+  5. Close the game and remove the -r argument or it will ask every time you launch the game.
 
 ## Smoothcam Functionality
 1. In MO2, uncheck the SmoothCam Mod
@@ -202,7 +215,6 @@ I've included Mura's presets for Immersive Equipment Displays and this is how to
 4. From the dropdown menu under "Preset" select "Coin Pouch for JS by Mura"
 5. Click "Merge" then OK
 6. Repeat step 4 and 5 for:
-   - Headhunter Bounty by Mura
    - Potions for APS by Mura
 7. Press the x at the top or ESC to close the UI
 
@@ -221,16 +233,16 @@ To attempt to ensure racemenu changes are synced in game, follow these steps.
 10. If you want to make changes, disconnect from the server and repeat steps 6-9, or else other people will not see them.
     
 ## Tips When Playing (WIP)
-1. Use normal saves instead of Quicksaves, and turn off autosave functionality.
-   - These have been known to start causing issues for extended play in Skyrim so I recommend against relying on them.
+1. Don't Save when playing on a server. The server/STR handles this.
 2. Try to allow the party leader to enter cells first, both interior and exterior to avoid the issue of invisible enemies.
-3. If you experience bugs and aren't sure whats causing them first refer to: https://github.com/tiltedphoques/Mod-Compatibility for information on mods used with STR.
+3. If you experience bugs and aren't sure whats causing them first refer to: https://github.com/tiltedphoques/Mod-Compatibility or https://wiki.tiltedphoques.com/tilted-online/guides/troubleshooting for information on STR and mods.
    - I will do my best to avoid these in the installation process but its not yet very solid at what works properly with STR.
    - If you check that mod compatability page and also check the modpages of the installed mods and still can't figure it out, post an issue and I will try to help as best I can.
 4. Always have the party leader join the server first and create the party.
    - The party leader should be physically in front of the party when travelling to ensure they are the first to enter a new cell
    - The party leader should be the only person progressing quests to help keep everything synced.
      - If someone other than the party leader progresses a quest, have the party leader repeat the same steps to catch up.
+5. Do not join a server before selecting your start. This can cause problems.
 
 
 # Disclaimer
