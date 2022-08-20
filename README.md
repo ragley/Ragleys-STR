@@ -1,4 +1,4 @@
-# Ragley's Skyrim Together Reborn Testing Repo
+# Ragley's Skyrim Together Reborn
 
 I am fairly new to wabbajack and also github so bear with me, and let me know if theres improvements to make. I will be updating this when I make changes, and/or find more mods. Likely I'll be adding more soon. Feel free to join the discord: https://discord.gg/xTr26KDndy
 
