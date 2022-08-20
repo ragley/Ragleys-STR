@@ -21,8 +21,8 @@
     "force_down": false,
     "links": {
       "$type": "Links, Wabbajack.Lib",
-      "image": "https://i.ibb.co/DRpDQtH/20220714212753-1.png",
-      "readme": "https://github.com/ragley/Ragleys-STR/blob/main/README.md",
+      "image": "https://raw.githubusercontent.com/ragley/Ragleys-STR/main/header_pic.png",
+      "readme": "https://raw.githubusercontent.com/ragley/Ragleys-STR/main/README.md",
       "download": "https://github.com/ragley/Ragleys-STR/raw/main/Ragley's%20Skyrim%20Together%20Reborn.wabbajack",
       "machineURL": "Ragleys-STR/RSTR",
       "discordURL": "https://discord.gg/xTr26KDndy"
