@@ -1,6 +1,10 @@
 # Ragley's Skyrim Together Reborn Testing Repo
 
-I am fairly new to wabbajack and also github so bear with me, and let me know if theres improvements to make. I will be updating this when I make changes, and/or find more mods. Likely I'll be adding more soon. Feel free to join the discord: https://discord.gg/xTr26KDndy
+I am fairly new to wabbajack and also github so bear with me, and let me know if theres improvements to make. I will be updating this when I make changes, and/or find more mods. Likely I'll be adding more soon. I apologize for the hoop-jumping to get the install working properly, part is due to me being new at wabbajack lists, part due to mod author permissions, and part due to issues with STR. I hope you'll bear with me, I will do my best to walk you through it. 
+
+## Troubleshooting
+You can reach me through the discord to help with troubleshooting, as well as talk with other people using the modpack.
+Feel free to join the discord at: https://discord.gg/xTr26KDndy
 
 ## Included Mod Highlights
 <details>
@@ -122,19 +126,6 @@ Throughout this guide I will make references to specific folders, they are:
 5. Install the instance to a separate folder. (e.g. X:/Games/RSTR)
 6. When it says "Installation Complete," Select open instance, open Mod Organizer, and proceed with the rest of this guide.
 
-## Set your Skyrim.ini and SkyrimPrefs.ini settings
-1. In MO2 click the puzzle icon at the top and select ini editors
-2. Select SkyrimPrefs.ini and find the [DISPLAY] section
-3. Adjust these parameters to your desired specifications: 	
-	- bBorderless=0
-	- bFull Screen=1
-	- iSize H=1080
-	- iSize W=1920
-4. Copy all text in the box
-5. Save to a text file OUTSIDE your SkyrimTogetherReborn installation folder
-6. If you have to reinstall the entire STR installation for some reason, you can paste your backup into the inis again
-7. Repeat steps 4-6 if you make changes to either your skyrim.ini or SkyrimPrefs.ini to ensure changes are kept between installs
-
 ## ENBSeries
 I finally figured out how to utilize the stock game feature of Wabbajack, so luckily for you this means less installation steps on your part. Unfortunately the ENBSeries and ENB preset must still be installed manually. (This is due to the distribution limitations in place by the author.)
 ### __ENBSeries__
@@ -150,29 +141,45 @@ If you removed a previous ENB Preset or are continuing to install a new one foll
 3. Open the archive and copy the contents to the Game Root folder. (enbseries folder, enbseries.ini, and enblocal.ini)
 4. Extract the "Presets for grass collisons" archive in your Game Files Folder where MO2 is located.
 5. Enter the folder and select a preset. I believe 5 is the most movement and 1 is the least, but I am unsure. I just use 5.
-6. Copy the enbgrasscollisions.ini file to your game directory, where the SkyrimSE.exe is located.
-7. That should install The Truth ENB, and grass collisions. Unless you have another installation game modifying your skyrim base game with an ENB etc. or you want to change ENB Presets, you wont have to repeat these steps.
-8. For a warmer ENB, you can use SHIFT+ENTER to open the ENB menu and edit the enbbloom.fx and enbeffect.fx sections to match these respectively:
+6. That should install The Truth ENB Preset. Unless you have another installation game modifying your skyrim base game with an ENB etc. or you want to change ENB Presets, you wont have to repeat these steps.
+7. For a warmer ENB, you can use SHIFT+ENTER to open the ENB menu and edit the enbbloom.fx and enbeffect.fx sections to match these respectively:
    - [LINK TO ENB BLOOM SETTINGS]
    - [LINK TO ENB FX SETTINGS]
 
-## Launching STR for the First Time
+## BethINI Configuration
+I have included Bethini to allow for easy customization of .ini files. Before launching any executables from MO2, you should run BethINI.
+  1. Close MO2, leaving it open causes issues with BethINI.
+  2. Navigate to /RSTR/Tools/BethINI Standalone/
+  3. Launch BethINI.exe
+  4. Ensure the settings on the ```Setup``` tab show the proper paths, and the INI path is the ```ModOrganizer > Default``` option.
+  5. In the ```Basic``` tab select your resolution and other optional settings. (they have tooltips if you hover)
+  6. Select the ```Recommended Tweaks``` box, and then click your desired preset. (I __DO NOT__ recommend ultra, High is still very demanding, I'd recommend medium)
+  7. Hit ```Save & Exit```
+  
+## Launching The Game
+BEFORE launching STR, a couple things need to be taken care of. 
+  1. With the ENB installed, you must run the game through SKSE.
+  2. Ensure ENB is working (it will tell you in the upper left corner)
+  3. Start a New Game, ignore character creation, choose a start just to get into the world.
+  4. Make a manual save. 
+  5. Quit the game.
+  
 When you first run STR you have to select the proper .EXE file. This is __NOT__ SKSE.
-- At the prompt, select "SkyrimSE.exe" from your base Skyrim folder.
-- If you select the wrong one follow these steps:
-  1. Select the executables setting in MO2 (Green Gears)
-  2. Select SkyrimTogetherReborn
-  3. in the arguments field add: ```-r```
-  4. Click "OK" and launch STR again.
-  5. Close the game and remove the -r argument or it will ask every time you launch the game.
+- At the prompt, select "SkyrimSE.exe" from /RSTR/Game Root/. __(Make sure it is the correct one)__
+- If you select the wrong one simply close the popup.
+- I have included the ```-r``` argument by default in the executable within MO2, this means you will have to select it every launch
+  - If you would like to disable the repeating selection:
+  1. Be sure you have successfully run STR at least once.
+  2. Hit the green gears icon at the top of MO2
+  3. Select ```Skyrim Together Reborn - Nemesis Version```
+  4. Remove ```-r``` from the arguments field.
 
 ## Smoothcam Functionality
-1. In MO2, uncheck the SmoothCam Mod
-2. Run STR then start a new game and skip through character creation
-3. Save the game then quit to desktop (or console > qqq)
-4. Enable SmoothCam in MO2.
-5. Launch STR and load that save. (Not Continue)
-6. SmoothCam should be working and will stay working when starting a new game.
+To get Smoothcam to work follow these steps:
+1. Launch STR.
+2. Manually load the save you just made __(NOT CONTINUE)__
+3. Make a new save.
+4. Quit the game.
 
 ## Immersive Equipment Display Presets
 I've included Mura's presets for Immersive Equipment Displays and this is how to enable them. Likely you'll have to do this every new game you start as it doesn't seem to stay.
@@ -212,8 +219,7 @@ To attempt to ensure racemenu changes are synced in game, follow these steps.
 10. If you want to make changes, disconnect from the server and repeat steps 6-9, or else other people will not see them.
 
 
-# Disclaimer
-## You are free to modify this list how you want, however you do so at your own risk. I am a student who enjoys skyrim modding in his free time and I don't have the time or energy to provide support on a modded setup that I don't know what exactly has been done. Should you decide to make modifications, all responsibility for problems that occur falls on you, and I respectfully as you search elsewhere for the solutions.
+## Disclaimer
+ __You are free to modify this list how you want, however you do so at your own risk. I am a student who enjoys skyrim modding in his free time and I don't have the time or energy to provide support on a modded setup that I don't know what exactly has been done. Should you decide to make modifications, all responsibility for problems that occur falls on you, and I respectfully as you search elsewhere for the solutions.__
 
-# Thanks for playing!
-- Ragley
+# Thanks for playing! -Ragley
