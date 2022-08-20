@@ -9,9 +9,10 @@
     ],
     "game": "skyrimspecialedition",
     "tags": [
-      "testing",
       "SkyrimTogetherReborn",
       "Immersion",
+      "Coop",
+      "Unofficial",
       "Multiplayer",
       "Roleplay"
     ],
@@ -23,7 +24,7 @@
       "image": "https://i.ibb.co/DRpDQtH/20220714212753-1.png",
       "readme": "https://github.com/ragley/Ragleys-STR/blob/main/README.md",
       "download": "https://github.com/ragley/Ragleys-STR/raw/main/Ragley's%20Skyrim%20Together%20Reborn.wabbajack",
-      "machineURL": "machineURL",
+      "machineURL": "Ragleys-STR/RSTR",
       "discordURL": "https://discord.gg/xTr26KDndy"
     },
     "download_metadata": {
@@ -35,6 +36,6 @@
       "NumberOfInstalledFiles": 37303,
       "SizeOfInstalledFiles": 66002058815
     },
-    "version": "0.6.7"
+    "version": "0.7"
   }
 ]
