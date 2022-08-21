@@ -1,5 +1,4 @@
-# Ragley's Skyrim Together Reborn Testing Repo
-
+# Ragley's Skyrim Together Reborn
 I am fairly new to wabbajack and also github so bear with me, and let me know if theres improvements to make. I will be updating this when I make changes, and/or find more mods. Likely I'll be adding more soon. I apologize for the hoop-jumping to get the install working properly, part is due to me being new at wabbajack lists, part due to mod author permissions, and part due to issues with STR. I hope you'll bear with me, I will do my best to walk you through it. 
 
 ## Troubleshooting
