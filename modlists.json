@@ -2,7 +2,7 @@
   {
     "$type": "ModListMetadata, Wabbajack.Lib",
     "title": "Ragley's Skyrim Together Reborn",
-    "description": "Modpack for Skyrim Together Reborn",
+    "description": "A co-op overhaul based around the SkyrimTogetherReborn multiplayer mod. The main goal is to make a stable, modded pack for STR. This pack focuses on roleplay, immersion, and combat flow while attempting to optimize performance and visuals. (May have bugs due to the current nature of STR)",
     "author": "Ragley",
     "maintainers": [
       "github/ragley"
@@ -11,9 +11,9 @@
     "tags": [
       "SkyrimTogetherReborn",
       "Immersion",
-      "Multiplayer",
       "Coop",
       "Unofficial",
+      "Multiplayer",
       "Roleplay"
     ],
     "nsfw": false,
@@ -21,21 +21,21 @@
     "force_down": false,
     "links": {
       "$type": "Links, Wabbajack.Lib",
-      "image": "https://i.ibb.co/DRpDQtH/20220714212753-1.png",
-      "readme": "https://github.com/ragley/Ragleys-STR/blob/main/README.md",
-      "download": "https://github.com/ragley/Ragleys-STR/raw/main/Ragley's%20Skyrim%20Together%20Reborn.wabbajack",
-      "machineURL": "Ragleys-STR/RSTR",
+      "image": "https://raw.githubusercontent.com/ragley/Ragleys-STR/main/header_pic.png",
+      "readme": "https://raw.githubusercontent.com/ragley/Ragleys-STR/main/README.md",
+      "download": "https://github.com/ragley/Ragleys-STR/raw/main/RSTR%20_0.6.7.wabbajack",
+      "machineURL": "RSTR",
       "discordURL": "https://discord.gg/xTr26KDndy"
     },
     "download_metadata": {
       "$type": "DownloadMetadata, Wabbajack.Lib",
-      "Hash": "pLB3RIvPkpM=",
-      "Size": 1795308080,
-      "NumberOfArchives": 370,
-      "SizeOfArchives": 52135432256,
-      "NumberOfInstalledFiles": 76451,
-      "SizeOfInstalledFiles": 80419586472
+      "Hash": "PCL3SQM0Qpw=",
+      "Size": 26009145,
+      "NumberOfArchives": 281,
+      "SizeOfArchives": 40737253458,
+      "NumberOfInstalledFiles": 37303,
+      "SizeOfInstalledFiles": 66002058815
     },
-    "version": "0.8"
+    "version": "0.6.7"
   }
 ]
