@@ -125,7 +125,7 @@ Throughout this guide I will make references to specific folders, they are:
 5. Install the instance to a separate folder. (e.g. X:/Games/RSTR)
 6. When it says "Installation Complete," Select open instance, open Mod Organizer, and proceed with the rest of this guide.
 
-## ENBSeries
+## ENBSeries Binaries
 I finally figured out how to utilize the stock game feature of Wabbajack, so luckily for you this means less installation steps on your part. Unfortunately the ENBSeries and ENB preset must still be installed manually. (This is due to the distribution limitations in place by the author.)
 ### __ENBSeries__
 If you havent installed an ENB ever you can do it like this:
@@ -157,31 +157,31 @@ I have included Bethini to allow for easy customization of .ini files. Before la
   
 ## Launching The Game
 BEFORE launching STR, a couple things need to be taken care of. 
-  1. With the ENB installed, you must run the game through SKSE.
+  1. With the ENB installed, you must run the game through __SKSE__.
   2. Ensure ENB is working (it will tell you in the upper left corner)
   3. Start a New Game, ignore character creation, choose a start just to get into the world.
   4. Make a manual save. 
   5. Quit the game.
   
-When you first run STR you have to select the proper .EXE file. This is __NOT__ SKSE.
-- At the prompt, select "SkyrimSE.exe" from /RSTR/Game Root/. __(Make sure it is the correct one)__
-- If you select the wrong one simply close the popup.
-- I have included the ```-r``` argument by default in the executable within MO2, this means you will have to select it every launch
-  - If you would like to disable the repeating selection:
-  1. Be sure you have successfully run STR at least once.
-  2. Hit the green gears icon at the top of MO2
-  3. Select ```Skyrim Together Reborn - Nemesis Version```
-  4. Remove ```-r``` from the arguments field.
+When you first run STR you have to select the proper .EXE file. This is __NOT SKSE__.
+1. At the prompt, select "SkyrimSE.exe" from /RSTR/Game Root/. __Make sure it is the correct one__
+  - If you select the wrong one simply close the popup.
+  - By default the ```-r``` argument is enabled to eliminate any strange leftover behaviors.
+2. Make sure STR loads to the main menu. ENB will not load.
+3. Quit the game.
+4. Hit the green gears icon at the top of MO2
+5. Select ```Skyrim Together Reborn - Nemesis Version```
+6. Remove ```-r``` from the arguments field.  
 
 ## Smoothcam Functionality
 To get Smoothcam to work follow these steps:
-1. Launch STR.
-2. Manually load the save you just made __(NOT CONTINUE)__
+1. Launch STR again.
+2. Manually load the save you just made __(DO NOT USE CONTINUE)__
 3. Make a new save.
 4. Quit the game.
 
 ## Immersive Equipment Display Presets
-I've included Mura's presets for Immersive Equipment Displays and this is how to enable them. Likely you'll have to do this every new game you start as it doesn't seem to stay.
+I've included Mura's presets for Immersive Equipment Displays and this is how to enable them if you want to use them. Likely you'll have to do this every new game you start as it doesn't seem to stay across characters. However it's just an extra display for the potions and coin pouches so totally optional.
 1. Press the DELETE (DEL) key to open the UI for IED
 2. Click VIEW on the menubar and select custom.
 3. Select the checkbox for either gender, and also slect sync.
@@ -191,7 +191,9 @@ I've included Mura's presets for Immersive Equipment Displays and this is how to
    - Potions for APS by Mura
 7. Press the x at the top or ESC to close the UI
 
-## Tips When Playing (WIP)
+## Playing the Game
+If you've made it this far, congrats! You've finished the installation process and can start playing with your friends! I've included some helpful tips that can increase stability when playing.
+### Tips When Playing (WIP)
 1. Don't Save when playing on a server. The server/STR handles this.
 2. Try to allow the party leader to enter cells first, both interior and exterior to avoid the issue of invisible enemies.
 3. If you experience bugs and aren't sure whats causing them first refer to: https://github.com/tiltedphoques/Mod-Compatibility or https://wiki.tiltedphoques.com/tilted-online/guides/troubleshooting for information on STR and mods.
@@ -202,7 +204,6 @@ I've included Mura's presets for Immersive Equipment Displays and this is how to
    - The party leader should be the only person progressing quests to help keep everything synced.
      - If someone other than the party leader progresses a quest, have the party leader repeat the same steps to catch up.
 5. Do not join a server before selecting your start. This can cause problems.
-
 ### Racemenu Edits
 To attempt to ensure racemenu changes are synced in game, follow these steps.
 1. Launch STR from MO2
