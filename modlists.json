@@ -2,7 +2,7 @@
   {
     "$type": "ModListMetadata, Wabbajack.Lib",
     "title": "Ragley's Skyrim Together Reborn",
-    "description": "A co-op overhaul based around the Skyrim Together Reborn multiplayer mod. The main goal is to make a stable, modded pack",
+    "description": "A co-op overhaul based around the SkyrimTogetherReborn multiplayer mod. The main goal is to make a stable, modded pack for STR. This pack focuses on roleplay, immersion, and combat flow while attempting to optimize performance and visuals. (May have bugs due to the current nature of STR)",
     "author": "Ragley",
     "maintainers": [
       "github/ragley"
