@@ -116,12 +116,15 @@ Throughout this guide I will make references to specific folders, they are:
 1. Follow the guide here: https://wiki.tiltedphoques.com/tilted-online/guides/client-setup up until the Mod Organizer 2 section. Past this will be covered by this guide.
 
 ## Wabbajack
-1. Install Wabbajack according to the instructions at: https://github.com/wabbajack-tools/wabbajack (__NOT IN ROOT OF DRIVE, PROGRAM FILES, or DOWNLOADS. It needs to be in a new folder__)
-2. Download the latest release .zip from this repo and extract it to a folder anywhere.
-3. Open Wabbajack and select install from disk.
+I finally got the pack listed in the gallery so it can be downloaded from within Wabbajack! To do this follow these instructions:
+
+1. If it isn't already, install Wabbajack according to the instructions at: https://github.com/wabbajack-tools/wabbajack (__NOT IN ROOT OF DRIVE, PROGRAM FILES, or DOWNLOADS. It needs to be in a new folder__)
+2. Search the gallery for this modpack
+3. Click the download/install button.
 4. Sign in to nexus when prompted (premium HIGHLY recommended)
 5. Install the instance to a separate folder. (e.g. X:/Games/RSTR)
 6. When it says "Installation Complete," Select open instance, open Mod Organizer, and proceed with the rest of this guide.
+7. If it says "Installation Failed" it's likely a download got interrupted and didn't hash properly. You can restart the install in the same location and it should hash what you already have and redownload what you need.
 
 ## Set your Skyrim.ini and SkyrimPrefs.ini settings
 1. In MO2 click the puzzle icon at the top and select ini editors
