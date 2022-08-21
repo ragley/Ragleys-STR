@@ -2,7 +2,7 @@
   {
     "$type": "ModListMetadata, Wabbajack.Lib",
     "title": "Ragley's Skyrim Together Reborn",
-    "description": "Modpack for Skyrim Together Reborn",
+    "description": "A co-op overhaul based around the Skyrim Together Reborn multiplayer mod. The main goal is to make a stable, modded pack",
     "author": "Ragley",
     "maintainers": [
       "github/ragley"
@@ -24,7 +24,7 @@
       "image": "https://raw.githubusercontent.com/ragley/Ragleys-STR/main/header_pic.png",
       "readme": "https://raw.githubusercontent.com/ragley/Ragleys-STR/main/README.md",
       "download": "https://github.com/ragley/Ragleys-STR/raw/main/RSTR%20_0.6.7.wabbajack",
-      "machineURL": "https://github.com/ragley/Ragleys-STR/",
+      "machineURL": "RSTR",
       "discordURL": "https://discord.gg/xTr26KDndy"
     },
     "download_metadata": {
