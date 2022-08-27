@@ -140,12 +140,13 @@ Throughout this guide I will make references to specific folders, they are:
 
 
 ## Wabbajack
-1. Install Wabbajack according to the instructions at: https://github.com/wabbajack-tools/wabbajack (__NOT IN ROOT OF DRIVE, PROGRAM FILES, or DOWNLOADS. It needs to be in a new folder__)
-2. Download the latest release .zip from this repo and extract it to a folder anywhere.
-3. Open Wabbajack and select install from disk.
+1. If it isn't already, install Wabbajack according to the instructions at: https://github.com/wabbajack-tools/wabbajack (__NOT IN ROOT OF DRIVE, PROGRAM FILES, or DOWNLOADS. It needs to be in a new folder__)
+2. Search the gallery for this modpack. (Check ```Show Unofficial Lists``` Box)
+3. Click the download/install button.
 4. Sign in to nexus when prompted (premium HIGHLY recommended)
 5. Install the instance to a separate folder. (e.g. X:/Games/RSTR)
-6. When it says "Installation Complete," Select open instance, open Mod Organizer, and proceed with the rest of this guide.
+6. When it says "Installation Complete," Select open instance, and proceed with the rest of this guide.
+7. If it says "Installation Failed" it's likely a download got interrupted and didn't hash properly. You can restart the install in the same location and it should hash what you already have and redownload what you need.
 
 ## ENBSeries Binaries
 I finally figured out how to utilize the stock game feature of Wabbajack, so luckily for you this means less installation steps on your part. Unfortunately the ENBSeries and ENB preset must still be installed manually. (This is due to the distribution limitations in place by the author.)
@@ -163,9 +164,7 @@ If you removed a previous ENB Preset or are continuing to install a new one foll
 4. Extract the "Presets for grass collisons" archive in your Game Files Folder where MO2 is located.
 5. Enter the folder and select a preset. I believe 5 is the most movement and 1 is the least, but I am unsure. I just use 5.
 6. That should install The Truth ENB Preset. Unless you have another installation game modifying your skyrim base game with an ENB etc. or you want to change ENB Presets, you wont have to repeat these steps.
-7. For a warmer ENB, you can use SHIFT+ENTER to open the ENB menu and edit the enbbloom.fx and enbeffect.fx sections to match these respectively:
-   - [LINK TO ENB BLOOM SETTINGS]
-   - [LINK TO ENB FX SETTINGS]
+7. For a warmer ENB Preset, you can use mine, which will be availible on the discord.
 
 ## BethINI Configuration
 I have included Bethini to allow for easy customization of .ini files. Before launching any executables from MO2, you should run BethINI.
@@ -187,15 +186,15 @@ BEFORE launching STR, a couple things need to be taken care of.
   
 When you first run STR you have to select the proper .EXE file. This is __NOT SKSE__.
 1. Launch ```SkyrimTogetherReborn Nemesis```
-2. At the prompt, select "SkyrimSE.exe" from /RSTR/Game Root/. __Make sure it is the correct one__
+2. At the prompt, select "SkyrimSE.exe" from /RSTR/Game Root/. __Make sure it is the correct one.__
 3. If you are getting the Access Library error, you likely didn't select the correct one, or STR is trying to look in the wrong location. To fix this:
-  1. Open the executables menu in MO2, the green gears icon at the top.
-  2. Select ```Skyrim Together Reborn - Nemesis Version```
-  3. Add ```-r``` to the arguments field.  
-  4. Launch again and select the correct .exe (```/RSTR/Game Root/SkyrimSe.exe```)
-  5. The game should load but ENB might not, just close the game.
-  6. Go back to the executables menu and remove ```-r```
-  7. Your game should launch fine now with ENB.
+   1. Open the executables menu in MO2, the green gears icon at the top.
+   2. Select ```Skyrim Together Reborn - Nemesis Version```
+   3. Add ```-r``` to the arguments field.  
+   4. Launch again and select the correct .exe (```/RSTR/Game Root/SkyrimSe.exe```)
+   5. The game should load but ENB might not, just close the game.
+   6. Go back to the executables menu and remove ```-r```
+   7. Your game should launch fine now with ENB.
 
 ## Smoothcam Functionality
 To get Smoothcam to work follow these steps:
