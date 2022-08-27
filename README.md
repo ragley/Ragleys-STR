@@ -3,7 +3,7 @@ I am fairly new to wabbajack and also github so bear with me, and let me know if
 
 ## Troubleshooting
 You can reach me through the discord to help with troubleshooting, as well as talk with other people using the modpack.
-Feel free to join the discord at: https://discord.gg/xTr26KDndy
+Feel free to join the discord: https://discord.gg/xTr26KDndy
 
 ## Included Mod Highlights
 <details>
@@ -26,7 +26,6 @@ Feel free to join the discord at: https://discord.gg/xTr26KDndy
 - KS Hairdos
 - Alternate Start
 - Better Jumping
-- Smilodon
 - Rustic Clothing
 - Immersive Weapons and Armors
 - Bandolier
@@ -48,7 +47,10 @@ Feel free to join the discord at: https://discord.gg/xTr26KDndy
 - Dwemer Automatons Glowmapped
 - Dwemer Weapons Glowmapped
 - Folkvangr
-- The Grass Must Grow
+- Cathedral 3D Pine Grass
+- Origins of the Forest
+- Mari's Flora
+- Windy Grass
 - Landscape Fixes for Grass Mods
 - Grass Collisions
 - Immersive Sounds Compendium
@@ -78,7 +80,13 @@ Feel free to join the discord at: https://discord.gg/xTr26KDndy
 - Improved weapon Impact Effects
 - Smoother Skies
 - Ethereal Clouds
+- Obsidian Weathers
+- Morning Fogs
+- Aequinoctium add on for Obsidian Weathers
 - Water for ENB
+- Immersive Fallen Trees
+- Happy Little Trees
+- Frankly HD armors
 - Bandit Lines Expansion
 - Underdog Animations
 - College of Winterhold - Quest Expansion
@@ -89,10 +97,24 @@ Feel free to join the discord at: https://discord.gg/xTr26KDndy
 - Vanguard Crossbow Animations
 - MCM Recorder to auto-configure MCMs at start of new game
 - Weather Control
-- Realistic Regeneration
 - Mysticism
-- Apocalypse
 - Basic Camp Gear
+- Valhalla Combat
+- The Ultimate Dodge Mod Reborn (Syncs!)
+- DynDOLOD, etc.
+- Impactful Blocking
+- Nemesis Unlimited Behavior Engine
+- Valhalla Combat
+- Elden Counter
+- Elden Power Attack
+- SCAR
+- ADXP | MCO
+- Vokrii
+- Animated Potions
+- Better Third Person Selection
+- Immersive Interactions
+- Shout
+- Precision
 </details>
 
 ## Requirements
@@ -164,14 +186,16 @@ BEFORE launching STR, a couple things need to be taken care of.
   5. Quit the game.
   
 When you first run STR you have to select the proper .EXE file. This is __NOT SKSE__.
-1. At the prompt, select "SkyrimSE.exe" from /RSTR/Game Root/. __Make sure it is the correct one__
-  - If you select the wrong one simply close the popup.
-  - By default the ```-r``` argument is enabled to eliminate any strange leftover behaviors.
-2. Make sure STR loads to the main menu. ENB will not load.
-3. Quit the game.
-4. Hit the green gears icon at the top of MO2
-5. Select ```Skyrim Together Reborn - Nemesis Version```
-6. Remove ```-r``` from the arguments field.  
+1. Launch ```SkyrimTogetherReborn Nemesis```
+2. At the prompt, select "SkyrimSE.exe" from /RSTR/Game Root/. __Make sure it is the correct one__
+3. If you are getting the Access Library error, you likely didn't select the correct one, or STR is trying to look in the wrong location. To fix this:
+  1. Open the executables menu in MO2, the green gears icon at the top.
+  2. Select ```Skyrim Together Reborn - Nemesis Version```
+  3. Add ```-r``` to the arguments field.  
+  4. Launch again and select the correct .exe (```/RSTR/Game Root/SkyrimSe.exe```)
+  5. The game should load but ENB might not, just close the game.
+  6. Go back to the executables menu and remove ```-r```
+  7. Your game should launch fine now with ENB.
 
 ## Smoothcam Functionality
 To get Smoothcam to work follow these steps:
@@ -192,18 +216,27 @@ I've included Mura's presets for Immersive Equipment Displays and this is how to
 7. Press the x at the top or ESC to close the UI
 
 ## Playing the Game
-If you've made it this far, congrats! You've finished the installation process and can start playing with your friends! I've included some helpful tips that can increase stability when playing.
-### Tips When Playing (WIP)
+If you've made it this far, congrats! You've finished the installation process and can start playing with your friends!
+### IMPORTANT
+To get animations to properly play, you __CAN NOT__ join a server from a new game. You __MUST__ load a save, __THEN__ enter the server. This is beyond my ability to fix, it's something to do with how the nemesis for generates hashes for animations etc. The process for starting a new character is as follows:
+1. Launch the game and create your character.
+2. Choose your start and sleep in the bed.
+3. Make a __MANUAL__ save
+4. Exit to main menu
+5. __LOAD__ the save (Not continue)
+6. Connect to the server
+### Other Helpful Tips When Playing
 1. Don't Save when playing on a server. The server/STR handles this.
-2. Try to allow the party leader to enter cells first, both interior and exterior to avoid the issue of invisible enemies.
+2. Try to allow the party leader to enter cells first, both interior and exterior to avoid the issue of invisible enemies, etc.
 3. If you experience bugs and aren't sure whats causing them first refer to: https://github.com/tiltedphoques/Mod-Compatibility or https://wiki.tiltedphoques.com/tilted-online/guides/troubleshooting for information on STR and mods.
    - I will do my best to avoid these in the installation process but its not yet very solid at what works properly with STR.
-   - If you check that mod compatability page and also check the modpages of the installed mods and still can't figure it out, post an issue and I will try to help as best I can.
+   - If you check that mod compatability page and also check the modpages of the installed mods and still can't figure it out, post the problem in the troubleshooting channel of the discord and I will try to help as best I can.
 4. Always have the party leader join the server first and create the party.
    - The party leader should be physically in front of the party when travelling to ensure they are the first to enter a new cell
    - The party leader should be the only person progressing quests to help keep everything synced.
      - If someone other than the party leader progresses a quest, have the party leader repeat the same steps to catch up.
 5. Do not join a server before selecting your start. This can cause problems.
+
 ### Racemenu Edits
 To attempt to ensure racemenu changes are synced in game, follow these steps.
 1. Launch STR from MO2
@@ -218,8 +251,11 @@ To attempt to ensure racemenu changes are synced in game, follow these steps.
 9. Only now should you connect to a server. Your characters appearance should be synced with the other players.
 10. If you want to make changes, disconnect from the server and repeat steps 6-9, or else other people will not see them.
 
+### Disclaimer
+ - You are free to modify this list how you want, however you do so at your own risk. I am a student who enjoys skyrim modding in his free time and I don't have the time or energy to provide support on a modded setup that I don't know what exactly has been done. Should you decide to make modifications, all responsibility for problems that occur falls on you, and I respectfully as you search elsewhere for the solutions.
 
-## Disclaimer
- __You are free to modify this list how you want, however you do so at your own risk. I am a student who enjoys skyrim modding in his free time and I don't have the time or energy to provide support on a modded setup that I don't know what exactly has been done. Should you decide to make modifications, all responsibility for problems that occur falls on you, and I respectfully as you search elsewhere for the solutions.__
-
-# Thanks for playing! -Ragley
+### Thanks for playing! -Ragley
+ 
+## ```08/27/2022```
+  - As of now I'm releasing version 1.0 because the modpack is in a place I feel comfortable slowing development for a while. I will still try to fix problems that arise and add new things where I can, but I will not have nearly as much free time to work on a lot of active development of the modlist. I'm a full time enginnering student in my senior year, working on a full course-load and my capstone project, while also working part time. I've been solo developing this modlist as a hobby in my free time because it's fun, and creating something that other people use and enjoy makes me happy. I love to hear the stories you all post on the discord of how much you enjoy this modlist, it really makes my day to read them. Do not feel obligated under any circumstances, but if you would like to buy me a coffee I've set up a Ko-Fi page where you can do that. Any little bit is immensely appreciated and helps keep me motivated to continue devoting more time to improving the modlist. I thank you all for playing and look forward to bringing you all many exciting Skyrim adventures in the future. 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G0ENVP1)
