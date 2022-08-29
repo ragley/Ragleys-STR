@@ -1,8 +1,11 @@
 # Ragley's Skyrim Together Reborn
+I am fairly new to wabbajack and also github so bear with me, and let me know if theres improvements to make. I will be updating this when I make changes, and/or find more mods. Likely I'll be adding more soon. I apologize for the hoop-jumping to get the install working properly, part is due to me being new at wabbajack lists, part due to mod author permissions, and part due to issues with STR. I hope you'll bear with me, I will do my best to walk you through it. 
 
-I am fairly new to wabbajack and also github so bear with me, and let me know if theres improvements to make. I will be updating this when I make changes, and/or find more mods. Likely I'll be adding more soon. Feel free to join the discord: https://discord.gg/xTr26KDndy
+## Troubleshooting
+You can reach me through the discord to help with troubleshooting, as well as talk with other people using the modpack.
+Feel free to join the discord: https://discord.gg/xTr26KDndy
 
-## Included Mod Highlights
+## Included Mod Highlights v1.0.0
 <details>
   <summary>Click to Expand</summary>
 
@@ -23,7 +26,6 @@ I am fairly new to wabbajack and also github so bear with me, and let me know if
 - KS Hairdos
 - Alternate Start
 - Better Jumping
-- Smilodon
 - Rustic Clothing
 - Immersive Weapons and Armors
 - Bandolier
@@ -45,7 +47,10 @@ I am fairly new to wabbajack and also github so bear with me, and let me know if
 - Dwemer Automatons Glowmapped
 - Dwemer Weapons Glowmapped
 - Folkvangr
-- The Grass Must Grow
+- Cathedral 3D Pine Grass
+- Origins of the Forest
+- Mari's Flora
+- Windy Grass
 - Landscape Fixes for Grass Mods
 - Grass Collisions
 - Immersive Sounds Compendium
@@ -75,24 +80,41 @@ I am fairly new to wabbajack and also github so bear with me, and let me know if
 - Improved weapon Impact Effects
 - Smoother Skies
 - Ethereal Clouds
+- Obsidian Weathers
+- Morning Fogs
+- Aequinoctium add on for Obsidian Weathers
 - Water for ENB
+- Immersive Fallen Trees
+- Happy Little Trees
+- Frankly HD armors
 - Bandit Lines Expansion
 - Underdog Animations
 - College of Winterhold - Quest Expansion
 - Eyes of Beauty - Ai Remastered
 - Improved Closedfaced Helmets
-- VIGILANT
-  - Seems to work, but if multiple people enter Windspeak Inn in Dawnstar when first starting the quest it can cause a crash
-  - When traveling for quests and meeting an npc that's walking there, follow with them because fast traveling/coc does not pass time that I can tell so they will still be walking for a long time.
 - Wet and Cold
 - Rain, Ash, and Snow Shaders (RASS)
 - Vanguard Crossbow Animations
 - MCM Recorder to auto-configure MCMs at start of new game
 - Weather Control
-- Realistic Regeneration
 - Mysticism
-- Apocalypse
 - Basic Camp Gear
+- Valhalla Combat
+- The Ultimate Dodge Mod Reborn (Syncs!)
+- DynDOLOD, etc.
+- Impactful Blocking
+- Nemesis Unlimited Behavior Engine
+- Valhalla Combat
+- Elden Counter
+- Elden Power Attack
+- SCAR
+- ADXP | MCO
+- Vokrii
+- Animated Potions
+- Better Third Person Selection
+- Immersive Interactions
+- Shout
+- Precision
 </details>
 
 ## Requirements
@@ -100,118 +122,89 @@ This seems pretty performance friendly overall, mostly due to the ENB preset I t
 - 2080 Super
 - 32G RAM
 - Ryzen 7 3700x
-- At least 110 Gb storage space on an SSD
+- At least 120 Gb storage space on an SSD
   - HDD will work but expect slower loads and possibly pop in, I havent tested anything on a HDD in a long time
 
 ## References
 Throughout this guide I will make references to specific folders, they are:
-- Skyrim Game Folder
-  - Where the Skyrim.exe is located
-- Data Folder
-  - The Data folder within your skyrim game folder
-- Installation folder
+- Installation/Instance folder
   - The location where wabbajack installs Mod Organizer 2
+  - (e.g. ```X:/Games/RSTR/```)
+- Skyrim Game Folder
+  - This is within the in instance folder
+  - Where the Skyrim.exe is located
+  - (e.g. ```X:/Games/RSTR/Game Root/```)
+- Data Folder
+  - The Data folder within the skyrim game folder
+  - (e.g. ```X:/Games/RSTR/Game Root/Data```)
 
-## Clean Install Skyrim
-1. Follow the guide here: https://wiki.tiltedphoques.com/tilted-online/guides/client-setup up until the Mod Organizer 2 section. Past this will be covered by this guide.
 
 ## Wabbajack
-I finally got the pack listed in the gallery so it can be downloaded from within Wabbajack! To do this follow these instructions:
-
 1. If it isn't already, install Wabbajack according to the instructions at: https://github.com/wabbajack-tools/wabbajack (__NOT IN ROOT OF DRIVE, PROGRAM FILES, or DOWNLOADS. It needs to be in a new folder__)
-2. Search the gallery for this modpack
+2. Search the gallery for this modpack. (Check ```Show Unofficial Lists``` Box)
 3. Click the download/install button.
 4. Sign in to nexus when prompted (premium HIGHLY recommended)
 5. Install the instance to a separate folder. (e.g. X:/Games/RSTR)
-6. When it says "Installation Complete," Select open instance, open Mod Organizer, and proceed with the rest of this guide.
+6. When it says "Installation Complete," Select open instance, and proceed with the rest of this guide.
 7. If it says "Installation Failed" it's likely a download got interrupted and didn't hash properly. You can restart the install in the same location and it should hash what you already have and redownload what you need.
 
-## Set your Skyrim.ini and SkyrimPrefs.ini settings
-1. In MO2 click the puzzle icon at the top and select ini editors
-2. Select SkyrimPrefs.ini and find the [DISPLAY] section
-3. Adjust these parameters to your desired specifications: 	
-	- bBorderless=0
-	- bFull Screen=1
-	- iSize H=1080
-	- iSize W=1920
-4. Copy all text in the box
-5. Save to a text file OUTSIDE your SkyrimTogetherReborn installation folder
-6. If you have to reinstall the entire STR installation for some reason, you can paste your backup into the inis again
-7. Repeat steps 4-6 if you make changes to either your skyrim.ini or SkyrimPrefs.ini to ensure changes are kept between installs
-
-## ENBSeries and Game Folder Files
-Due to how Wabbajack works and me being too retarded to figure out how to do it, these need to be installed manually.
-Good news is they will persist between installs and you likely wont have to do it again. If you are coming from a previous install of this modpack you first need to delete a few files, as I've switched the ENB.
-
-### Removing a Previously Installed ENB Preset
-This step is semi optional if you like the current ENB setup and it perfoms well. Personally, my friends and I have experienced MUCH better performance on this new one but the old one still works. If you want to keep the old ENB (or another preset of your choice), skip this subsection and complete steps 4, 5, and 6 of "The Truth - ENB Preset" subsection.
-1. Go to your base Skyrim Install Folder, where SkyrimSE.exe is located
-2. Select the files and folders:
-   - enbseries (folder)
-   - enbcache (folder)
-   - enbseries.ini
-   - enblocal.ini
-3. Delete these files.
-
-### __Installing the ENB and SKSE__
-#### __SKSE__
-If you havent installed SKSE you can do it like this:
-1. Go to the "Game Folder Files" folder in your STR Installation folder.
-2. Extract the SKSE archive.
-3. Open the SKSE folder you just made and select:
-	- DATA folder
-	- skse64_loader
-	- skse64_1_6_353.dll
-	- skse64_steam_loader.dll
-4. Copy these to your base skyrim game folder where SkyrimSE.exe is located.
-
-#### __ENBSeries__
+## ENBSeries Binaries
+I finally figured out how to utilize the stock game feature of Wabbajack, so luckily for you this means less installation steps on your part. Unfortunately the ENBSeries and ENB preset must still be installed manually. (This is due to the distribution limitations in place by the author.)
+### __ENBSeries__
 If you havent installed an ENB ever you can do it like this:
 1. Go to http://enbdev.com/mod_tesskyrimse_v0475.htm and download the enbseries .zip file
 2. Open the archive and go to the Wrapper folder
-3. Extract ONLY the d3d11.dll and d3dcompiler_46e.dll to the base skyrim install folder, where skyrimSE.exe is located
+3. Extract ONLY the d3d11.dll and d3dcompiler_46e.dll to the Game Root folder within the instance folder (e.g. X:/Games/RSTR/Game Root/), where the SkyrimSE.exe is located
 
-#### __The Truth - ENB Preset__
+### __The Truth - ENB Preset__
 If you removed a previous ENB Preset or are continuing to install a new one follow these steps:
 1. Go to https://www.afkmods.com/ and create an account.
 2. Once you have an account go to https://www.afkmods.com/index.php?/files/file/2241-the-truth-enb/ and download the full version of The Truth ENB.
-3. Open the archive and copy the contents to your base skyrim folder. (enbseries folder, enbseries.ini, and enblocal.ini)
+3. Open the archive and copy the contents to the Game Root folder. (enbseries folder, enbseries.ini, and enblocal.ini)
 4. Extract the "Presets for grass collisons" archive in your Game Files Folder where MO2 is located.
 5. Enter the folder and select a preset. I believe 5 is the most movement and 1 is the least, but I am unsure. I just use 5.
-6. Copy the enbgrasscollisions.ini file to your game directory, where the SkyrimSE.exe is located.
-7. That should install The Truth ENB, and grass collisions. Unless you have another installation game modifying your skyrim base game with an ENB etc. or you want to change ENB Presets, you wont have to repeat these steps.
-8. For a warmer ENB, you can use SHIFT+ENTER to open the ENB menu and edit the enbbloom.fx and enbeffect.fx sections to match these respectively:
-   - [enbbloom.fx](https://github.com/ragley/Ragleys-STR/raw/dev/bloomfx.jpg)
-   - [enbeffect.fx](https://github.com/ragley/Ragleys-STR/raw/dev/effectfx.jpg)
+6. That should install The Truth ENB Preset. Unless you have another installation game modifying your skyrim base game with an ENB etc. or you want to change ENB Presets, you wont have to repeat these steps.
+7. For a warmer ENB Preset, you can use mine, which will be availible on the discord.
 
-## Management of Creation Club Content
-Skyrim comes with AE Creation Club Content by default, and the creators of STR recommend deleting this content. However a number of mods require Unofficial Skyrim Special Edition Patch. to function, but this also relies on CC content. The USSEP author has hidden downloads of past versions of the mod, but they are still availible to download through Nexus directly. If it is not included in the Wabbajack Install you can get the last AE, non CC dependent USSEP mod here: https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files&file_id=241103
-0. Close M02 if it is open.
-1. Go to your skyrim data folder and select all creation club content. (Files like ccXXXXXXXXX.esm/.esp/.bsa)
-2. Add these files to an archive and name it CCContent.zip or something like that.
-3. Delete the Creation Club content from the Data folder, leaving the archive.
-4. If you ever want to use the free AE content, simply go to MO2 and add the zip you created as a mod, then place it just below the skyrim DLC's.
-
-## Launching STR for the First Time
-When you first run STR you have to select the proper .EXE file. This is __NOT__ SKSE.
-- At the prompt, select "SkyrimSE.exe" from your base Skyrim folder.
-- If you select the wrong one follow these steps:
-  1. Select the executables setting in MO2 (Green Gears)
-  2. Select SkyrimTogetherReborn
-  3. in the arguments field add: ```-r```
-  4. Click "OK" and launch STR again.
-  5. Close the game and remove the -r argument or it will ask every time you launch the game.
+## BethINI Configuration
+I have included Bethini to allow for easy customization of .ini files. Before launching any executables from MO2, you should run BethINI.
+  1. Close MO2, leaving it open causes issues with BethINI.
+  2. Navigate to /RSTR/Tools/BethINI Standalone/
+  3. Launch BethINI.exe
+  4. Ensure the settings on the ```Setup``` tab show the proper paths, and the INI path is the ```ModOrganizer > Default``` option.
+  5. In the ```Basic``` tab select your resolution and other optional settings. (they have tooltips if you hover)
+  6. Select the ```Recommended Tweaks``` box, and then click your desired preset. (I __DO NOT__ recommend ultra, High is still very demanding, I'd recommend medium)
+  7. Hit ```Save & Exit```
+  
+## Launching The Game
+BEFORE launching STR, a couple things need to be taken care of. 
+  1. With the ENB installed, you must run the game through __SKSE__.
+  2. Ensure ENB is working (it will tell you in the upper left corner)
+  3. Start a New Game, ignore character creation, choose a start just to get into the world.
+  4. Make a manual save. 
+  5. Quit the game.
+  
+When you first run STR you have to select the proper .EXE file. This is __NOT SKSE__.
+1. Launch ```SkyrimTogetherReborn Nemesis```
+2. At the prompt, select "SkyrimSE.exe" from /RSTR/Game Root/. __Make sure it is the correct one.__
+3. If you are getting the Access Library error, you likely didn't select the correct one, or STR is trying to look in the wrong location. To fix this:
+   1. Open the executables menu in MO2, the green gears icon at the top.
+   2. Select ```Skyrim Together Reborn - Nemesis Version```
+   3. Add ```-r``` to the arguments field.  
+   4. Launch again and select the correct .exe (```/RSTR/Game Root/SkyrimSe.exe```)
+   5. The game should load but ENB might not, just close the game.
+   6. Go back to the executables menu and remove ```-r```
+   7. Your game should launch fine now with ENB.
 
 ## Smoothcam Functionality
-1. In MO2, uncheck the SmoothCam Mod
-2. Run STR then start a new game and skip through character creation
-3. Save the game then quit to desktop (or console > qqq)
-4. Enable SmoothCam in MO2.
-5. Launch STR and load that save. (Not Continue)
-6. SmoothCam should be working and will stay working when starting a new game.
+To get Smoothcam to work follow these steps:
+1. Launch STR again.
+2. Manually load the save you just made __(DO NOT USE CONTINUE)__
+3. Make a new save.
+4. Quit the game.
 
 ## Immersive Equipment Display Presets
-I've included Mura's presets for Immersive Equipment Displays and this is how to enable them. Likely you'll have to do this every new game you start as it doesn't seem to stay.
+I've included Mura's presets for Immersive Equipment Displays and this is how to enable them if you want to use them. Likely you'll have to do this every new game you start as it doesn't seem to stay across characters. However it's just an extra display for the potions and coin pouches so totally optional.
 1. Press the DELETE (DEL) key to open the UI for IED
 2. Click VIEW on the menubar and select custom.
 3. Select the checkbox for either gender, and also slect sync.
@@ -221,7 +214,29 @@ I've included Mura's presets for Immersive Equipment Displays and this is how to
    - Potions for APS by Mura
 7. Press the x at the top or ESC to close the UI
 
-## Racemenu Edits
+## Playing the Game
+If you've made it this far, congrats! You've finished the installation process and can start playing with your friends!
+### IMPORTANT
+To get animations to properly play, you __CAN NOT__ join a server from a new game. You __MUST__ load a save, __THEN__ enter the server. This is beyond my ability to fix, it's something to do with how the nemesis for generates hashes for animations etc. The process for starting a new character is as follows:
+1. Launch the game and create your character.
+2. Choose your start and sleep in the bed.
+3. Make a __MANUAL__ save
+4. Exit to main menu
+5. __LOAD__ the save (Not continue)
+6. Connect to the server
+### Other Helpful Tips When Playing
+1. Don't Save when playing on a server. The server/STR handles this.
+2. Try to allow the party leader to enter cells first, both interior and exterior to avoid the issue of invisible enemies, etc.
+3. If you experience bugs and aren't sure whats causing them first refer to: https://github.com/tiltedphoques/Mod-Compatibility or https://wiki.tiltedphoques.com/tilted-online/guides/troubleshooting for information on STR and mods.
+   - I will do my best to avoid these in the installation process but its not yet very solid at what works properly with STR.
+   - If you check that mod compatability page and also check the modpages of the installed mods and still can't figure it out, post the problem in the troubleshooting channel of the discord and I will try to help as best I can.
+4. Always have the party leader join the server first and create the party.
+   - The party leader should be physically in front of the party when travelling to ensure they are the first to enter a new cell
+   - The party leader should be the only person progressing quests to help keep everything synced.
+     - If someone other than the party leader progresses a quest, have the party leader repeat the same steps to catch up.
+5. Do not join a server before selecting your start. This can cause problems.
+
+### Racemenu Edits
 To attempt to ensure racemenu changes are synced in game, follow these steps.
 1. Launch STR from MO2
 2. Start a New Game
@@ -234,22 +249,13 @@ To attempt to ensure racemenu changes are synced in game, follow these steps.
 8. Save the game in a new save (__MANUAL__)
 9. Only now should you connect to a server. Your characters appearance should be synced with the other players.
 10. If you want to make changes, disconnect from the server and repeat steps 6-9, or else other people will not see them.
-    
-## Tips When Playing (WIP)
-1. Don't Save when playing on a server. The server/STR handles this.
-2. Try to allow the party leader to enter cells first, both interior and exterior to avoid the issue of invisible enemies.
-3. If you experience bugs and aren't sure whats causing them first refer to: https://github.com/tiltedphoques/Mod-Compatibility or https://wiki.tiltedphoques.com/tilted-online/guides/troubleshooting for information on STR and mods.
-   - I will do my best to avoid these in the installation process but its not yet very solid at what works properly with STR.
-   - If you check that mod compatability page and also check the modpages of the installed mods and still can't figure it out, post an issue and I will try to help as best I can.
-4. Always have the party leader join the server first and create the party.
-   - The party leader should be physically in front of the party when travelling to ensure they are the first to enter a new cell
-   - The party leader should be the only person progressing quests to help keep everything synced.
-     - If someone other than the party leader progresses a quest, have the party leader repeat the same steps to catch up.
-5. Do not join a server before selecting your start. This can cause problems.
 
+### Disclaimer
+ - You are free to modify this list how you want, however you do so at your own risk. I am a student who enjoys skyrim modding in his free time and I don't have the time or energy to provide support on a modded setup that I don't know what exactly has been done. Should you decide to make modifications, all responsibility for problems that occur falls on you, and I respectfully as you search elsewhere for the solutions.
 
-# Disclaimer
-## You are free to modify this list how you want, however you do so at your own risk. I am a student who enjoys skyrim modding in his free time and I don't have the time or energy to provide support on a modded setup that I don't know what exactly has been done. Should you decide to make modifications, all responsibility for problems that occur falls on you, and I respectfully as you search elsewhere for the solutions.
+### Thanks for playing! -Ragley
+ 
+## ```08/27/2022```
+  - As of now I'm releasing version 1.0 because the modpack is in a place I feel comfortable slowing development for a while. I will still try to fix problems that arise and add new things where I can, but I will not have nearly as much free time to work on a lot of active development of the modlist. I'm a full time enginnering student in my senior year, working on a full course-load and my capstone project, while also working part time. I've been solo developing this modlist as a hobby in my free time because it's fun, and creating something that other people use and enjoy makes me happy. I love to hear the stories you all post on the discord of how much you enjoy this modlist, it really makes my day to read them. Do not feel obligated under any circumstances, but if you would like to buy me a coffee I've set up a Ko-Fi page where you can do that. Any little bit is immensely appreciated and helps keep me motivated to continue devoting more time to improving the modlist. I thank you all for playing, and an especially big thanks to those that gave feedback, helped me test, and troubleshoot. I look forward to bringing you all many exciting Skyrim adventures in the future. 
 
-# Thanks for playing!
-- Ragley
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G0ENVP1)

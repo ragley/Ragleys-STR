@@ -23,19 +23,19 @@
       "$type": "Links, Wabbajack.Lib",
       "image": "https://raw.githubusercontent.com/ragley/Ragleys-STR/main/header_pic.png",
       "readme": "https://raw.githubusercontent.com/ragley/Ragleys-STR/main/README.md",
-      "download": "https://github.com/ragley/Ragleys-STR/raw/main/RSTR%20_0.6.7.wabbajack",
+      "download": "https://github.com/ragley/Ragleys-STR/raw/main/RSTR.wabbajack",
       "machineURL": "RSTR",
       "discordURL": "https://discord.gg/xTr26KDndy"
     },
     "download_metadata": {
       "$type": "DownloadMetadata, Wabbajack.Lib",
-      "Hash": "PCL3SQM0Qpw=",
-      "Size": 26009145,
-      "NumberOfArchives": 281,
-      "SizeOfArchives": 40737253458,
-      "NumberOfInstalledFiles": 37303,
-      "SizeOfInstalledFiles": 66002058815
-    },
-    "version": "0.6.7"
+      "Hash": "lpkboDtSFvQ=",
+      "Size": 47250066,
+      "NumberOfArchives": 373,
+      "SizeOfArchives": 53918307102,
+      "NumberOfInstalledFiles": 76926,
+      "SizeOfInstalledFiles": 80387126703
+    }
+    "version": "1.0.0"
   }
 ]
