@@ -5,7 +5,7 @@ I am fairly new to wabbajack and also github so bear with me, and let me know if
 You can reach me through the discord to help with troubleshooting, as well as talk with other people using the modpack.
 Feel free to join the discord: https://discord.gg/xTr26KDndy
 
-## Included Mod Highlights
+## Included Mod Highlights v1.0.0
 <details>
   <summary>Click to Expand</summary>
 
