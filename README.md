@@ -122,7 +122,7 @@ This seems pretty performance friendly overall, mostly due to the ENB preset I t
 - 2080 Super
 - 32G RAM
 - Ryzen 7 3700x
-- At least 150 Gb storage space on an SSD
+- At least 120 Gb storage space on an SSD
   - HDD will work but expect slower loads and possibly pop in, I havent tested anything on a HDD in a long time
 
 ## References
