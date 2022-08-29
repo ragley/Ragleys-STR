@@ -123,7 +123,7 @@ This seems pretty performance friendly overall, mostly due to the ENB preset I t
 - 32G RAM
 - Ryzen 7 3700x
 - At least 120 Gb storage space on an SSD
-  - HDD will work but expect slower loads and possibly pop in, I havent tested anything on a HDD in a long time
+  - HDD will work but expect slower loads and possibly pop in, I havent tested anything on a HDD in a long time  
 
 ## References
 Throughout this guide I will make references to specific folders, they are:
@@ -138,6 +138,11 @@ Throughout this guide I will make references to specific folders, they are:
   - The Data folder within the skyrim game folder
   - (e.g. ```X:/Games/RSTR/Game Root/Data```)
 
+## Skyrim
+The wabbajack uses the Game Root method, where it has it's own installation of skyrim, however you must have a clean installation of Skyrim Special Edition (1.6.x) installed in English for it to hash files against.
+- Launch the game through Steam and let the launcher set some settings and create necessary files.
+  - The settings it picks won't matter because BethINI is used to set more optimized options for your system.
+- Run Skyrim once so it gets to the main menu, then quit.
 
 ## Wabbajack
 1. If it isn't already, install Wabbajack according to the instructions at: https://github.com/wabbajack-tools/wabbajack (__NOT IN ROOT OF DRIVE, PROGRAM FILES, or DOWNLOADS. It needs to be in a new folder__)
