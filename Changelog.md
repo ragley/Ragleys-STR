@@ -51,6 +51,9 @@
 
 ## v0.6.7
 ### Mod Changes and Fixes
+<details>
+  <summary>Click to Expand</Summary>
+ 
 - Fixed Face Discoloration
 - Bunch of JS models
 - Immersive Equipment Displays
@@ -94,3 +97,5 @@
   - Added IED config section
   - Added some loose Requirements to Readme
   - Updated custom ENB edits to respect the preset creator's sharing policy
+ 
+</details>
