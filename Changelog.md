@@ -1,4 +1,54 @@
 # Changelog
+## v1.0.0
+### World and Graphics Changes
+ <details>
+  <summary>Click to Expand</Summary>
+     
+ - DynDOLOD and related plugins
+ - QW's Grass Patch 2 (Folkvangr, Origins of the Forest, Cathedral 3D Pine Grass)
+ - Obsidian weathers with Aequinoctium add-on
+ - Morning Fogs
+ - Distant Mists
+ - Alpine forest of Whiterun Valley
+ - Immersive Fallen Trees
+ - Mari's Flora
+ - 8K Night Skies
+ - Better Blended Roads
+ - Hyperborean Snow
+ - A Clear Map of Skyrim
+ - Some Underdog Animations
+ - Happy Little Trees
+ - eFPS
+ - Quickloot EE
+ - Frankly HD Armors, etc.
+ - Removed Vigilant
+   - Was causing some problems, will add back if STR gets more stable with modded quests and scripts
+ 
+</details>
+
+### Gameplay Changes
+ <details>
+  <summary>Click to Expand</Summary>
+     
+  - Impactful Blocking
+  - Vanguard
+  - Elden Power attack (hold ```v``` as a modifier to do a power attack)
+  - Elden Counter
+  - The Ultimate Dodge Mod Reborn
+  - Valhalla Combat
+  - SCAR - Skyrim Combos AI Revolution
+  - ADXP | MCO
+  - ADXP | MCO Nordic Animation
+  - Animated Potions
+  - Vokrii
+  - Mysticism 2
+  - Removed: Ordinator
+  - Removed: Apocalypse
+    - These both cause issues late game and make a lot of edits that can induce instability as well as cause crashes
+  
+ </details>
+
+
 ## v0.6.7
 ### Mod Changes and Fixes
 - Fixed Face Discoloration
