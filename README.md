@@ -154,7 +154,6 @@ The wabbajack uses the Game Root method, where it has it's own installation of s
 7. If it says "Installation Failed" it's likely a download got interrupted and didn't hash properly. You can restart the install in the same location and it should hash what you already have and redownload what you need.
 
 ## ENBSeries Binaries
-I finally figured out how to utilize the stock game feature of Wabbajack, so luckily for you this means less installation steps on your part. Unfortunately the ENBSeries and ENB preset must still be installed manually. (This is due to the distribution limitations in place by the author.)
 ### __ENBSeries__
 If you havent installed an ENB ever you can do it like this:
 1. Go to http://enbdev.com/mod_tesskyrimse_v0475.htm and download the enbseries .zip file
@@ -162,14 +161,11 @@ If you havent installed an ENB ever you can do it like this:
 3. Extract ONLY the d3d11.dll and d3dcompiler_46e.dll to the Game Root folder within the instance folder (e.g. X:/Games/RSTR/Game Root/), where the SkyrimSE.exe is located
 
 ### __The Truth - ENB Preset__
-If you removed a previous ENB Preset or are continuing to install a new one follow these steps:
 1. Go to https://www.afkmods.com/ and create an account.
 2. Once you have an account go to https://www.afkmods.com/index.php?/files/file/2241-the-truth-enb/ and download the full version of The Truth ENB.
 3. Open the archive and copy the contents to the Game Root folder. (enbseries folder, enbseries.ini, and enblocal.ini)
-4. Extract the "Presets for grass collisons" archive in your Game Files Folder where MO2 is located.
-5. Enter the folder and select a preset. I believe 5 is the most movement and 1 is the least, but I am unsure. I just use 5.
-6. That should install The Truth ENB Preset. Unless you have another installation game modifying your skyrim base game with an ENB etc. or you want to change ENB Presets, you wont have to repeat these steps.
-7. For a warmer ENB Preset, you can use mine, which will be availible on the discord.
+4. That should install The Truth ENB Preset. Unless you have another installation game modifying your skyrim base game with an ENB etc. or you want to change ENB Presets, you wont have to repeat these steps.
+5. For a warmer ENB Preset, you can use mine, which will be availible on the discord.
 
 ## BethINI Configuration
 I have included Bethini to allow for easy customization of .ini files. Before launching any executables from MO2, you should run BethINI.
