@@ -57,7 +57,6 @@ Feel free to join the discord: https://discord.gg/xTr26KDndy
 - Security Overhaul
 - Realistic Melee Range
 - Strange Runes
-- Ordinator
 - JKs Skyrim
 - All JKs Interiors
 - Sidequests of Skyrim
