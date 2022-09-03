@@ -129,7 +129,7 @@ Throughout this guide I will make references to specific folders, they are:
 - Installation/Instance folder
   - The location where wabbajack installs Mod Organizer 2
   - (e.g. ```X:/Games/RSTR/```)
-- Skyrim Game Folder
+- Skyrim Game Folder/Game Root Folder
   - This is within the in instance folder
   - Where the Skyrim.exe is located
   - (e.g. ```X:/Games/RSTR/Game Root/```)
