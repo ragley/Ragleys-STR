@@ -155,7 +155,7 @@ The wabbajack uses the Game Root method, where it has it's own installation of s
 ## ENBSeries Binaries
 ### __ENBSeries__
 If you havent installed an ENB ever you can do it like this:
-1. Go to http://enbdev.com/mod_tesskyrimse_v0475.htm and download the enbseries .zip file
+1. Go to http://enbdev.com/download_mod_tesskyrimse.html and download the latest version of the enbseries .zip file
 2. Open the archive and go to the Wrapper folder
 3. Extract ONLY the d3d11.dll and d3dcompiler_46e.dll to the Game Root folder within the instance folder (e.g. X:/Games/RSTR/Game Root/), where the SkyrimSE.exe is located
 
@@ -178,7 +178,7 @@ I have included Bethini to allow for easy customization of .ini files. Before la
   
 ## Launching The Game
 BEFORE launching STR, a couple things need to be taken care of. 
-  1. With the ENB installed, you must run the game through __SKSE__.
+  1. With the ENB installed, you must run the game in MO2 through __SKSE__.
   2. Ensure ENB is working (it will tell you in the upper left corner)
   3. Start a New Game, ignore character creation, choose a start just to get into the world.
   4. Make a manual save. 
